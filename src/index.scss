@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -30,14 +30,32 @@ code {
   object-position: 40% 0;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 50%; 
 }
 
-.zoom img {
-  transition: transform .25s, visibility .25s ease-in;
-  transform-origin: 50% 50%;
+.cursor {
+  font-size: 35px;
+  color: gray;
+  animation: Typewriter-cursor 1s infinite;
+  font-style: normal;
+  margin-left: 3px;
 }
 
-.zoom:hover img {
-  transform: scale(1.25);
+.Typewriter {
+  margin: 0px;
 }
+
+.typewriter-wrapper {
+  font-size: 35px;
+  font-family: 'Montserrat', cursive;
+  font-weight: bold;
+}
+
+// .zoom img {
+//   transition: transform .25s, visibility .25s ease-in;
+//   transform-origin: 50% 30%;
+// }
+
+// .zoom:hover img {
+//   transform: scale(1.12);
+// }
