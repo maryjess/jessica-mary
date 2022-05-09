@@ -15,4 +15,29 @@ code {
 .calligraphy {
   font-family: 'Parisienne', cursive;
   font-size: 50px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.para {
+  font-family: 'Work Sans', serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.profile-cropped {
+  object-fit: cover;
+  object-position: 40% 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.zoom img {
+  transition: transform .25s, visibility .25s ease-in;
+  transform-origin: 50% 50%;
+}
+
+.zoom:hover img {
+  transform: scale(1.25);
 }
