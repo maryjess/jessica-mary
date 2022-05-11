@@ -9,7 +9,7 @@ const Home = () => {
     // const toggleLoading = () => {setIsLoading(false)};
 
   return (
-    <body>
+    <body className="background">
       <Stack spacing={3} direction="row" alignItems="stretch">
         <div className="zoom">
           <img className="profile-cropped" src={profilePic} alt="Jessica-Mary"></img>

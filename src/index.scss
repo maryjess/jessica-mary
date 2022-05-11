@@ -19,6 +19,13 @@ code {
   margin-block-end: 0px;
 }
 
+h1 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  margin-block-start: 0px;
+  margin-block-end: 15px;
+}
+
 .para {
   font-family: 'Work Sans', serif;
   font-size: 20px;
@@ -51,11 +58,31 @@ code {
   font-weight: bold;
 }
 
-// .zoom img {
-//   transition: transform .25s, visibility .25s ease-in;
-//   transform-origin: 50% 30%;
-// }
+footer {
+  font-family: 'Work Sans', sans-serif;
+}
 
-// .zoom:hover img {
-//   transform: scale(1.12);
-// }
+.zoom img {
+  transition: transform .25s, visibility .25s ease-in;
+  transform-origin: 50% 30%;
+}
+
+.zoom:hover img {
+  transform: scale(1.12);
+}
+
+.navbar {
+  background-color: #ff9393; // to be determined later
+  height: 60px;
+  padding-bottom: 5px;
+}
+
+.navbar-text {
+  font-family: 'Poppins', sans-serif;
+  &:hover {
+    color: #894f4f;
+    transform: scale(1.10);
+    transition: transform .13s, visibility .13s ease-in;
+    transform-origin: 50% 50%;
+  }
+}
