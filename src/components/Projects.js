@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Cover = () => {
+const Projects = () => {
   return (
     <h1>Check out my works!</h1>
+    
   );
 }
 
-export default Cover;
+export default Projects;

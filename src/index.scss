@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.outest-background {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -75,6 +80,11 @@ footer {
   background-color: #ff9393; // to be determined later
   height: 60px;
   padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.navitext {
+  margin-left: 40px;
 }
 
 .navbar-text {

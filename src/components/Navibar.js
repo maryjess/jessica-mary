@@ -4,7 +4,7 @@ import React from 'react';
 const Navibar = () => {
   return (
     <div className="navbar">
-      <Stack direction="row" spacing={5} alignItems="center">
+      <Stack direction="row" spacing={5} alignItems="center" className="navitext">
         <h3 className="navbar-text">Jessica Mary</h3>
         <h3 className="navbar-text">Experiences</h3>
         <h3 className="navbar-text">Projects</h3>
