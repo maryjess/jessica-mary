@@ -77,7 +77,7 @@ footer {
 }
 
 .navbar {
-  background-color: #ff9393; // to be determined later
+  background-color: #fdb5b5; // to be determined later
   height: 60px;
   padding-bottom: 5px;
   border-radius: 10px;
@@ -95,4 +95,28 @@ footer {
     transition: transform .13s, visibility .13s ease-in;
     transform-origin: 50% 50%;
   }
+}
+
+.exp,
+.works,
+.card-header {
+  border-radius: 10px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: auto;
+}
+.exp {
+  background-color: #f5ddc1;
+}
+.works {
+  background-color: #c9ddb8;
+}
+
+.card-title {
+  text-align: center;
+  margin-block-end: 0px;
+  vertical-align: middle;
+  line-height: 50px;
 }

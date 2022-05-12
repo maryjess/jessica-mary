@@ -6,19 +6,19 @@ import { Stack } from '@mui/material';
 import Navibar from './components/Navibar';
 
 function App() {
-  return ([
-    <Navibar/>,
-    <div className="outest-background">
-      <Stack>
+  return (
+    <Stack>
+      <Navibar/>
+      <div className="outest-background">
         <Home/>
-        <Stack direction="row" justifyContent="space-evenly">
+        <Stack spacing={2}>
           <Experience/>
           <Projects/>
+          <footer><center>&copy; {new Date().getFullYear()} Jessica Mary. All Rights Reserved.</center></footer>
         </Stack>
-        <footer><center>&copy; {new Date().getFullYear()} Jessica Mary. All Rights Reserved.</center></footer>
-      </Stack>
-    </div>
-  ]);
+      </div>
+    </Stack>
+  );
 }
 
 export default App;
