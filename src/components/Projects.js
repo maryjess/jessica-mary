@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <Stack spacing={1}>
       <div className="card-header__works works">
-        <h1 className="card-title">Check out my works!</h1>
+        <h1 className="card-title">Projects</h1>
       </div>  
       <Stack direction="row" spacing={5}>
         <div className="card-background">
