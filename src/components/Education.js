@@ -8,7 +8,6 @@ const Education = () => {
         <h1 className="card-title">Education</h1>
       </div>
       <div className="outest-background">
-        <p>Hi this is a sample education</p>
       </div>
     </Stack>
   );

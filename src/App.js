@@ -9,8 +9,8 @@ import Navibar from './components/Navibar';
 function App() {
   return (
     <Stack>
-      <Navibar/>
       <div className="outest-background">
+        <Navibar/>
         <Home/>
         <Stack spacing={2}>
           <Experience/>
