@@ -19,20 +19,21 @@ const Home = () => {
           <img className="profile-cropped" src={profilePic} alt="Jessica-Mary"></img>
         </div>
         <Stack spacing={1}>
-          {/* <h1 className="calligraphy">Hello There!</h1> */}
-          <Typewriter
-            options={{
-              strings: ["Hello there!"],
-              delay: 150,
-              pauseFor: 3000,
-              autoStart: true,
-              loop: true,
-              skipAddStyles: false,
-              cursorClassName: 'cursor',
-              wrapperClassName: 'typewriter-wrapper',
-            }}
-          />
-          {/* TODO add icon star or wave */}
+          <Stack direction="row" spacing={1}>
+            <h1><span className="wave">👋</span></h1>
+            <Typewriter
+              options={{
+                strings: ["Hello there!"],
+                delay: 150,
+                pauseFor: 3000,
+                autoStart: true,
+                loop: true,
+                skipAddStyles: false,
+                cursorClassName: 'cursor',
+                wrapperClassName: 'typewriter-wrapper',
+              }}
+            />
+          </Stack>
           <div className="para">
             My name is Jessica, a penultimate student in National University of Singapore, 
             majoring in <strong>Pharmaceutical Science</strong> with a minor in <strong>Computer Science</strong>. 
