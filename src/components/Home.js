@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <body className="background">
-      <Stack spacing={3} direction="row" alignItems="stretch">
+      <Stack spacing={3} direction="row" alignItems="center" justifyContent="center">
         <div className="zoom">
           <img className="profile-cropped" src={profilePic} alt="Jessica-Mary"></img>
         </div>
