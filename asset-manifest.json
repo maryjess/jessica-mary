@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/jessica-mary/static/css/main.69e96954.css",
+    "main.js": "/jessica-mary/static/js/main.fc3f6e31.js",
+    "static/js/787.0b7881d3.chunk.js": "/jessica-mary/static/js/787.0b7881d3.chunk.js",
+    "static/media/profile-picture.jpg": "/jessica-mary/static/media/profile-picture.baa735d76883c531ff32.jpg",
+    "static/media/background.jpg": "/jessica-mary/static/media/background.e1b86bf1a393d2472cc7.jpg",
+    "static/media/background-mobile.jpg": "/jessica-mary/static/media/background-mobile.47ac5bce722717f670c9.jpg",
+    "static/media/nus.png": "/jessica-mary/static/media/nus.c07690eb252473d459db.png",
+    "static/media/penabur.png": "/jessica-mary/static/media/penabur.929a23cd0eefa73042b0.png",
+    "static/media/kanaan.png": "/jessica-mary/static/media/kanaan.f07230a75806503f3318.png",
+    "static/media/internconnect.png": "/jessica-mary/static/media/internconnect.b92f4d944d8ed6abcb23.png",
+    "static/media/axs.png": "/jessica-mary/static/media/axs.99ffe627b1ec3102c47e.png",
+    "static/media/mew.png": "/jessica-mary/static/media/mew.c200a72ddb27dbf1ad1d.png",
+    "static/media/instagram.png": "/jessica-mary/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/qr-bookmark.jpg": "/jessica-mary/static/media/qr-bookmark.417b857cca577fd77269.jpg",
+    "static/media/github.png": "/jessica-mary/static/media/github.f11021803f68852df283.png",
+    "static/media/youtube.png": "/jessica-mary/static/media/youtube.0b7c86fba1fbc433f761.png",
+    "static/media/linkedin.png": "/jessica-mary/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "index.html": "/jessica-mary/index.html",
+    "main.69e96954.css.map": "/jessica-mary/static/css/main.69e96954.css.map",
+    "main.fc3f6e31.js.map": "/jessica-mary/static/js/main.fc3f6e31.js.map",
+    "787.0b7881d3.chunk.js.map": "/jessica-mary/static/js/787.0b7881d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69e96954.css",
+    "static/js/main.fc3f6e31.js"
+  ]
+}
