@@ -1,15 +1,40 @@
 body {
-  margin: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // background-position-x: 50vw;
+  // background-position-y: bottom;
+  background-size: 100vw 100vh;
+}
+
+.less-opacity {
+  opacity: 75%;
+}
+
+// .sliding-background {
+// height: 500px;
+// width: 5076px;
+// animation: slide 60s linear infinite;
+// }
+
+.container {
+  overflow: hidden;
 }
 
 .outest-background {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.color-background {
+  background-color: #ddb699;
 }
 
 code {
@@ -31,10 +56,54 @@ h1 {
   margin-block-end: 15px;
 }
 
+.vertical-timeline-element {
+  // .vertical-timeline-element-content,
+  // .vertical-timeline {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin-block-start: 0px;
+  margin-block-end: 15px;
+  // padding: 20px;
+  &--title {
+    font-size: 22px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+  &--subtitle {
+    font-size: 16px;
+    font-style: normal;
+    color: #616161;
+    margin-block-end: 0px;
+    margin-block-start: 5px;
+  }
+}
+
+.timeline-icon {
+  max-width: 45px;
+  max-height: 45px;
+  width: auto;
+  height: auto;
+  // aspect-ratio: 1200/1531;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// .vertical-timeline--two-columns,
+// .vertical-timeline-element-content {
+//   // @media only screen and (min-width: 1170px) {
+//   padding: 0px;
+//   // }
+// }
+
 .para {
   font-family: "Work Sans", serif;
   font-size: 20px;
   text-align: justify;
+  line-height: 30px;
 }
 
 .profile-cropped {
@@ -99,7 +168,7 @@ footer {
 }
 
 .navbar-text {
-  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
   &:hover {
     color: #894f4f;
     transform: scale(1.1);
@@ -107,6 +176,11 @@ footer {
     transform-origin: 50% 50%;
   }
 }
+
+// .work,
+// .vertical-timeline-element {
+//   background-color: #ffe3e3;
+// }
 
 .exp,
 .works,
@@ -121,6 +195,7 @@ footer {
 }
 .exp {
   background-color: #f5ddc1;
+  // color: #3c3c3c;
 }
 .edu {
   background-color: paleturquoise;
