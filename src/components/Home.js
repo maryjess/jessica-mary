@@ -35,9 +35,10 @@ const Home = () => {
             />
           </Stack>
           <div className="para">
-            My name is Jessica, a penultimate student in National University of Singapore, 
+            My name is Jessica, final year student in National University of Singapore, 
             majoring in <strong>Pharmaceutical Science</strong> with a minor in <strong>Computer Science</strong>. 
-            I love exploring new things and I am really passionate about music.
+            Currently I am keen into software engineering, bioinformatics, and pharmaceutical drug development.
+            In my free time, I love exploring new things and I am really passionate about music.
           </div>
 
           <Stack direction="row" spacing={2}>
