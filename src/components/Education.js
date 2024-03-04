@@ -44,6 +44,7 @@ const Education = () => {
           <p className="para">
             <ul>
               <li>Won Bronze Medal in International Chemistry Olympiad (IChO) 2019 in Paris, France</li>
+              <li>Won Gold Medal in Chemistry in National Science Olympiad (OSN) 2018 in Padang, West Sumatera</li>
               <li>
                 Co-curricular Activities: Scout, Kolintang
               </li>
