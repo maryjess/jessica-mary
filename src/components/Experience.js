@@ -8,7 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const Experience = () => {
   return (
     <Stack>
-      <div className="card-header__exp exp">
+      <div className="card-header__exp exp" id="experience">
         <h1 className="card-title">Experiences</h1>
       </div>
         <VerticalTimeline>

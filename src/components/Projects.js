@@ -7,7 +7,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <Stack spacing={2} justifyContent="center" alignItems="center">
-      <div className="card-header__works works">
+      <div className="card-header__works works" id="projects">
         <h1 className="card-title">Projects</h1>
       </div>  
       <Stack flexDirection={{xs:"column", xl:"row"}} justifyContent="center" alignItems="center" spacing={{xs: 2, xl: 0}}>

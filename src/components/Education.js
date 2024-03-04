@@ -8,7 +8,7 @@ import { Stack } from '@mui/material';
 const Education = () => {
   return (
     <Stack>
-      <div className="card-header__edu edu">
+      <div className="card-header__edu edu" id="education">
         <h1 className="card-title">Education</h1>
       </div>
       <VerticalTimeline>
