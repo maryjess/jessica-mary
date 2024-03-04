@@ -72,6 +72,14 @@ body {
 .outest-background {
   margin-left: 150px;
   margin-right: 150px;
+  @media only screen and (max-width: 767px) {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1079px) {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 }
 
 .color-background {
@@ -122,6 +130,13 @@ h1 {
 .vertical-timeline-element-date {
   font-size: 17px;
   font-family: "Work Sans", serif;
+  @media only screen and (max-width: 1024px) {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+  }
 }
 
 .timeline-icon {
@@ -184,11 +199,18 @@ h1 {
   }
 }
 
+.padding-bottom {
+  padding-bottom: 15px;
+}
+
 .para {
   font-size: 17px;
   line-height: 25px;
   text-align: justify;
   font-family: "Work Sans", serif;
+  &.mobile {
+    text-align: left;
+  }
 }
 
 .profile-cropped {
@@ -267,9 +289,6 @@ footer {
 //   background-color: #ffe3e3;
 // }
 
-.exp,
-.works,
-.edu,
 .card-header {
   border-radius: 10px;
   height: 55px;
@@ -277,16 +296,19 @@ footer {
   justify-content: center;
   width: 400px;
   margin: auto;
-}
-.exp {
-  background-color: #f2c088;
-  // color: #3c3c3c;
-}
-.edu {
-  background-color: rgb(152, 221, 221);
-}
-.works {
-  background-color: #c9ddb8;
+  &.mobile {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  &.exp {
+    background-color: #f2c088;
+  }
+  &.edu {
+    background-color: rgb(152, 221, 221);
+  }
+  &.works {
+    background-color: #c9ddb8;
+  }
 }
 
 .card-title {

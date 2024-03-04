@@ -1,20 +1,22 @@
 import { Stack, Card, CardContent, CardMedia, CardActions, CardActionArea, Button } from '@mui/material';
-import internconnect from '../images/internconnect.png';
+import React from 'react';
 import mew from '../images/mew.png';
 import qr_bookmark from '../images/qr-bookmark.jpg';
-import React from 'react';
+import internconnect from '../images/internconnect.png';
+import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 
 const Projects = () => {
+  const isMobileScreen = useCheckMobileScreen();
   return (
-    <Stack spacing={2} justifyContent="center" alignItems="center">
-      <div className="card-header__works works" id="projects">
+    <Stack spacing={isMobileScreen ? 0 : 2} justifyContent="center" alignItems="center">
+      <div className={isMobileScreen? "card-header mobile works" : "card-header works"} id="projects">
         <h1 className="card-title">Projects</h1>
       </div>  
       <Stack flexDirection={{xs:"column", xl:"row"}} justifyContent="center" alignItems="center" spacing={{xs: 2, xl: 0}}>
         <div className="padding-right">
           <Card
             sx={{
-              width: "450px",
+              width: isMobileScreen ? "320px" : "450px",
               height: "450px",
               borderRadius: "10px",
               backgroundColor: "#efffe0",
@@ -25,7 +27,10 @@ const Projects = () => {
               <CardActionArea href="https://ay2223s1-cs2103-f14-2.github.io/tp/">
                 <CardMedia
                   className="center"
-                  sx={{height: "200px", width: "450px", maxHeight: "200px", maxWidth: "450px"}}
+                  sx={{
+                    height: isMobileScreen ? "170px" : "200px",
+                    width: "450px"
+                  }}
                   image={internconnect}
                   title="InternConnect"
                 />
@@ -71,7 +76,7 @@ const Projects = () => {
         <div>
           <Card
             sx={{
-              width: "450px",
+              width: isMobileScreen ? "320px" :  "450px",
               borderRadius: "10px",
               height: "450px",
               backgroundColor: "#efffe0",
@@ -129,7 +134,7 @@ const Projects = () => {
         <div className="padding-left">
           <Card
             sx={{
-              width: "450px",
+              width: isMobileScreen ? "320px" : "450px",
               borderRadius: "10px",
               backgroundColor: "#efffe0",
               height: "450px",
@@ -140,7 +145,10 @@ const Projects = () => {
               <CardActionArea href="https://github.com/yehudanathan/qr-bookmark">
                 <CardMedia
                   className="center"
-                  sx={{height: "200px", width: "450px"}}
+                  sx={{
+                    height: "200px", 
+                    width: "450px"
+                  }}
                   image={qr_bookmark}
                   title="QR-Bookmark"
                 />
@@ -168,9 +176,11 @@ const Projects = () => {
                         Learn More
                       </Button> */}
                       <Button
-                        id="card-button"
                         href="https://github.com/yehudanathan/qr-bookmark"
-                        sx={{fontFamily: "Montserrat", textTransform: "none"}} 
+                        sx={{
+                          fontFamily: "Work Sans",
+                          textTransform: "none"
+                        }} 
                         color="success" 
                         variant="outlined"
                         size="small"
