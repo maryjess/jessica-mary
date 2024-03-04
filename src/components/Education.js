@@ -24,10 +24,13 @@ const Education = () => {
           <h4 className="vertical-timeline-element--subtitle">Singapore</h4>
           <p className="para">
             <ul>
-              <li>B.Sc (Honours) in Pharmaceutical Science, Minor in Computer Science</li>
+              <li>B.Sc (Honours) in Pharmaceutical Science,<br></br>
+              Minor in Computer Science</li>
               <li>Recipient of ASEAN Undergraduate Scholarship</li>
               <li>Co-Curricular Activities:<br></br>
-              The NUSChoir, NUS Angklung Ensemble, NUANSA Cultural Productions</li>
+              The NUSChoir (Soprano 2 Section Leader),<br></br>
+              NUS Angklung Ensemble (Lead Conductor),<br></br>
+              NUANSA Cultural Productions (Keyboardist)</li>
             </ul>
           </p>
         </VerticalTimelineElement>
