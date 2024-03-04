@@ -49,7 +49,7 @@ const Projects = () => {
                       <Button 
                         id="card-button"
                         href="https://ay2223s1-cs2103-f14-2.github.io/tp/"
-                        sx={{fontFamily: "Montserrat", textTransform: "none"}} 
+                        sx={{fontFamily: "Work Sans", textTransform: "none"}} 
                         variant="contained" 
                         color="success" 
                         size="small"
@@ -59,7 +59,7 @@ const Projects = () => {
                       <Button 
                         id="card-button"
                         href="https://github.com/AY2223S1-CS2103-F14-2/tp"
-                        sx={{fontFamily: "Montserrat", textTransform: "none"}} 
+                        sx={{fontFamily: "Work Sans", textTransform: "none"}} 
                         color="success" 
                         variant="outlined"
                         size="small"
@@ -107,7 +107,7 @@ const Projects = () => {
                       <Button 
                         id="card-button"
                         href="https://maryjess.github.io/ip/"
-                        sx={{fontFamily: "Montserrat", textTransform: "none"}} 
+                        sx={{fontFamily: "Work Sans", textTransform: "none"}} 
                         variant="contained" 
                         color="success" 
                         size="small"
@@ -117,7 +117,7 @@ const Projects = () => {
                       <Button 
                         id="card-button"
                         href="https://github.com/maryjess/ip"
-                        sx={{fontFamily: "Montserrat", textTransform: "none"}} 
+                        sx={{fontFamily: "Work Sans", textTransform: "none"}} 
                         color="success" 
                         variant="outlined"
                         size="small"
