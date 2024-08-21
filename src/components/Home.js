@@ -35,34 +35,35 @@ const Home = () => {
             />
           </Stack>
           <div className="para">
-            My name is Jessica, a final year student in National University of Singapore, 
-            majoring in <strong>Pharmaceutical Science</strong> with a minor in <strong>Computer Science</strong>. 
-            Currently I am keen into software engineering, bioinformatics, and pharmaceutical drug development.
-            In my free time, I love exploring new things and I am really passionate about music.
+            My name is Jessica, freshly graduated from <strong>NUS Pharmaceutical Science </strong>
+            &#8212; though my interest lies more towards <strong>Computer Science </strong>
+            &#8212; which led me to graduate with a minor.<p><br/></p>
+            Currently, I love creating <strong>stuffs</strong> that help people.
+            In my free time, I enjoy exploring new things and I am really passionate about music.
           </div>
 
             <Stack direction="row" spacing={2} justifyContent={isMobileScreen ? "center" : "flex-start"}>
-                <a href="https://github.com/maryjess">
-                    <img className="icon-small" src={github} alt="github"></img>
-                </a>
-                <a href="https://www.linkedin.com/in/jessicalistijo/">
-                    <img className="icon-small" src={linkedin} alt="linkedin"></img>
-                </a>
-                <a href="https://www.instagram.com/jessicalistijo">
-                    <img className="icon-small" src={instagram} alt="instagram"></img>
-                </a>
-                <a href="https://www.youtube.com/@jessicalistijo">
-                    <img className="icon-small" src={youtube} alt="youtube"></img>
-                </a>
-                <a href="https://tiktok.com/@jessicalistijo">
-                    <img className="icon-small" src={tiktok} alt="tiktok"></img>
-                </a>
-                <a href="https://medium.com/@jessicalistijo">
-                    <img className="icon-small" src={medium} alt="medium"></img>
-                </a>
-                <a href="https://discordapp.com/users/hellojxss">
-                    <img className="icon-small" src={discord} alt="discord"></img>
-                </a>
+              <a href="https://github.com/maryjess">
+                  <img className="icon-small" src={github} alt="github"></img>
+              </a>
+              <a href="https://www.linkedin.com/in/jessicalistijo/">
+                <img className="icon-small" src={linkedin} alt="linkedin"></img>
+              </a>
+              <a href="https://www.instagram.com/jessicalistijo">
+                <img className="icon-small" src={instagram} alt="instagram"></img>
+              </a>
+              <a href="https://www.youtube.com/@jessicalistijo">
+                <img className="icon-small" src={youtube} alt="youtube"></img>
+              </a>
+              <a href="https://tiktok.com/@jessicalistijo">
+                <img className="icon-small" src={tiktok} alt="tiktok"></img>
+              </a>
+              <a href="https://medium.com/@jessicalistijo">
+                <img className="icon-small" src={medium} alt="medium"></img>
+              </a>
+              <a href="https://discordapp.com/users/hellojxss">
+                <img className="icon-small" src={discord} alt="discord"></img>
+              </a>
             </Stack>
         </Stack>
       </Stack>
