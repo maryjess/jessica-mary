@@ -5,6 +5,7 @@ import youtube from '../images/youtube.png';
 import linkedin from '../images/linkedin.png';
 import instagram from '../images/instagram.png';
 import tiktok from '../images/tiktok.png';
+import medium from '../images/medium.png';
 import Typewriter from 'typewriter-effect/';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 
@@ -54,6 +55,9 @@ const Home = () => {
                 </a>
                 <a href="https://tiktok.com/@jessicalistijo">
                     <img className="icon-small" src={tiktok} alt="tiktok"></img>
+                </a>
+                <a href="https://medium.com/@jessicalistijo">
+                    <img className="icon-small" src={medium} alt="medium"></img>
                 </a>
             </Stack>
         </Stack>
