@@ -1,5 +1,5 @@
 import {Stack} from '@mui/material';
-import profilePic from '../images/profile-picture.jpg';
+import profilePic from '../images/jessica-profile.png';
 import github from '../images/github.png';
 import youtube from '../images/youtube.png';
 import linkedin from '../images/linkedin.png';
