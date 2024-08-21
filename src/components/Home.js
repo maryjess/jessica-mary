@@ -4,6 +4,7 @@ import github from '../images/github.png';
 import youtube from '../images/youtube.png';
 import linkedin from '../images/linkedin.png';
 import instagram from '../images/instagram.png';
+import tiktok from '../images/tiktok.png';
 import Typewriter from 'typewriter-effect/';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 
@@ -38,20 +39,23 @@ const Home = () => {
             In my free time, I love exploring new things and I am really passionate about music.
           </div>
 
-          <Stack direction="row" spacing={2} justifyContent={isMobileScreen ? "center" : "flex-start"}>
-            <a href="https://github.com/maryjess">
-              <img className="icon-small" src={github} alt="github"></img>
-            </a>
-            <a href="https://www.linkedin.com/in/jessicalistijo/">
-              <img className="icon-small" src={linkedin} alt="linkedin"></img>
-            </a>
-            <a href="https://www.instagram.com/jessicalistijo">
-              <img className="icon-small" src={instagram} alt="instagram"></img>
-            </a>
-            <a href="https://www.youtube.com/@jessicalistijo">
-              <img className="icon-small" src={youtube} alt="youtube"></img>
-            </a>
-          </Stack>
+            <Stack direction="row" spacing={2} justifyContent={isMobileScreen ? "center" : "flex-start"}>
+                <a href="https://github.com/maryjess">
+                    <img className="icon-small" src={github} alt="github"></img>
+                </a>
+                <a href="https://www.linkedin.com/in/jessicalistijo/">
+                    <img className="icon-small" src={linkedin} alt="linkedin"></img>
+                </a>
+                <a href="https://www.instagram.com/jessicalistijo">
+                    <img className="icon-small" src={instagram} alt="instagram"></img>
+                </a>
+                <a href="https://www.youtube.com/@jessicalistijo">
+                    <img className="icon-small" src={youtube} alt="youtube"></img>
+                </a>
+                <a href="https://tiktok.com/@jessicalistijo">
+                    <img className="icon-small" src={tiktok} alt="tiktok"></img>
+                </a>
+            </Stack>
         </Stack>
       </Stack>
     </body>
