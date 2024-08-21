@@ -20,6 +20,10 @@ body {
   }
 }
 
+p {
+  margin: 0;
+}
+
 .wave {
   animation-name: wave-animation;
   animation-duration: 2.5s;
@@ -58,12 +62,6 @@ body {
 .less-opacity {
   opacity: 75%;
 }
-
-// .sliding-background {
-// height: 500px;
-// width: 5076px;
-// animation: slide 60s linear infinite;
-// }
 
 .container {
   overflow: hidden;
