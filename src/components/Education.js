@@ -35,14 +35,27 @@ const Education = () => {
                       <h4 className="vertical-timeline-element--subtitle">Singapore</h4>
                       <h4 className="vertical-timeline-element-date">August 2020 - May 2024</h4>
                       <p className="para mobile">
-                        <ul>
-                          <li>B.Sc (Honours) in Pharmaceutical Science,<br></br>
-                          Minor in Computer Science</li>
-                          <li>Recipient of ASEAN Undergraduate Scholarship</li>
-                          <li>Co-Curricular Activities:<br></br>
-                          The NUSChoir<br></br>(Soprano 2 Section Leader),<br></br>
-                          NUS Angklung Ensemble<br></br>(Lead Conductor),<br></br>
-                          NUANSA Cultural Productions<br></br>(Keyboardist)</li>
+                        <br/>Bachelor of Science (Honours) in Pharmaceutical Science &#8212; Minor in Computer Science
+                        <br/><br/>Recipient of ASEAN Undergraduate Scholarship
+                        <br/><br/>Co-Curricular Activities:
+                        <ul className="subtitle">
+                          <li className="cca"><a href={"https://www.instagram.com/nuansacp/"}>
+                            <strong>NUANSA Cultural Productions:</strong></a>
+                            <br/>Keyboardist</li>
+                          <li className="cca"><a href={"https://nus.edu.sg/osa/pgpr/our-people/cluster-leaders"}>
+                            <strong>Prince George's Park Residences:</strong></a>
+                            <br/>Cluster Leader</li>
+                          <li className="cca"><a href={"https://nusangklung.netlify.app/"}>
+                            <strong>NUS Angklung Ensemble</strong></a>
+                            <br/>Lead Conductor</li>
+                          <li className="cca"><a href={"https://www.youtube.com/user/TheNUSChoir"}>
+                            <strong>The NUSChoir</strong></a>
+                            <br/>Soprano 2 Section Leader</li>
+                        </ul>
+                        Community Engagement:<br/>
+                        <ul className="reset"><a href={"https://www.facebook.com/ifn.singapore/"}>
+                          Volunteered in <strong>Indonesian Family Network </strong></a>
+                          as Basic English Teacher
                         </ul>
                       </p>
                     </Stack>
@@ -119,25 +132,42 @@ const Education = () => {
             <h3 className="vertical-timeline-element--title">National University of Singapore</h3>
             <h4 className="vertical-timeline-element--subtitle">Singapore</h4>
             <p className="para">
-              <ul>
-                <li>B.Sc (Honours) in Pharmaceutical Science,<br></br>
-                Minor in Computer Science</li>
-                <li>Recipient of ASEAN Undergraduate Scholarship</li>
-                <li>Co-Curricular Activities:<br></br>
-                The NUSChoir (Soprano 2 Section Leader),<br></br>
-                NUS Angklung Ensemble (Lead Conductor),<br></br>
-                NUANSA Cultural Productions (Keyboardist)</li>
+              Bachelor of Science (Honours) in Pharmaceutical Science &#8212;
+              Minor in Computer Science &#8212; Recipient of ASEAN Undergraduate Scholarship
+              <br/><br/>Co-Curricular Activities:<br/>
+              <ul className="subtitle">
+                <li className="cca"><a href={"https://www.instagram.com/nuansacp/"}>
+                  <strong>NUANSA Cultural Productions </strong></a>
+                  as Keyboardist
+                </li>
+                <li className="cca"><a href={"https://nus.edu.sg/osa/pgpr/our-people/cluster-leaders"}>
+                  <strong>Prince George's Park Residences </strong></a>
+                  as Cluster Leader
+                </li>
+                <li className="cca"><a href={"https://nusangklung.netlify.app/"}>
+                  <strong>NUS Angklung Ensemble </strong></a>
+                  as Lead Conductor
+                </li>
+                <li className="cca"><a href={"https://www.youtube.com/user/TheNUSChoir"}>
+                  <strong>The NUSChoir </strong></a>
+                  as Soprano 2 Section Leader
+                </li>
+              </ul>
+              Community Engagement:<br/>
+              <ul className="reset"><a href={"https://www.facebook.com/ifn.singapore/"}>
+                Volunteered in <strong>Indonesian Family Network </strong></a>
+                as Basic English Teacher
               </ul>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="July 2017 - June 2020"
-            contentStyle={{ borderRadius: '10px', background: '#dcf5f5', color: '#000' }}
-            contentArrowStyle={{ borderRight: '7px solid #dcf5f5' }}
-            iconStyle={{ background: '#dcf5f5', color: '#fff', alignItems:'center', display:'flex'}}
+            contentStyle={{borderRadius: '10px', background: '#dcf5f5', color: '#000'}}
+            contentArrowStyle={{borderRight: '7px solid #dcf5f5'}}
+            iconStyle={{background: '#dcf5f5', color: '#fff', alignItems: 'center', display: 'flex'}}
             icon={<img alt="Penabur" src={penabur} className="timeline-icon center"></img>}
-            >
+          >
             <h3 className="vertical-timeline-element--title">SMAK Penabur Gading Serpong</h3>
             <h4 className="vertical-timeline-element--subtitle">Tangerang, Indonesia</h4>
             <p className="para">

@@ -34,6 +34,22 @@ a.subtitle {
   color: #616161;
 }
 
+ul {
+  padding-left: 18px;
+}
+ul.subtitle {
+  margin-top: 0;
+}
+ul.reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-left: 8px;
+}
+
 a:hover {
   transform: scale(1.12);
   color: #626161;
