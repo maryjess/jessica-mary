@@ -83,10 +83,12 @@ const Education = () => {
                       <h4 className="vertical-timeline-element-date">July 2017 - June 2020</h4>
                       <p className="para mobile">
                         <ul>
-                          <li>Won Bronze Medal in International Chemistry Olympiad (IChO) 2019 in Paris, France</li>
-                          <li>Won Gold Medal in Chemistry in National Science Olympiad (OSN) 2018 in Padang, West Sumatera</li>
+                          <li>Bronze Medallist of International Chemistry Olympiad 2019 in Paris, France</li>
+                          <li>Gold Medallist in Chemistry of National Science Olympiad 2018 in Padang, West Sumatra</li>
                           <li>
-                            Co-curricular Activities: Scout, Kolintang
+                            <strong>Co-Curricular Activities:</strong> Scout,
+                            <a href={"https://youtu.be/Bq9-USYvCQs?si=kNhhXHZ1LzimasD3"}> Kulintang</a>,
+                            <a href={"https://bcomp.id/"}> Brilliant Competition</a>
                           </li>
                         </ul>
                       </p>
@@ -112,7 +114,7 @@ const Education = () => {
                   <h3 className="vertical-timeline-element--title">SMP Kristen Kanaan</h3>
                   <h4 className="vertical-timeline-element--subtitle">Banjarmasin, Indonesia</h4>
                   <h4 className="vertical-timeline-element-date">July 2014 - June 2017</h4>
-                  <p className="para mobile">Co-curricular Activities:<br></br>
+                    <p className="para mobile"><strong>Co-Curricular Activities:</strong><br></br>
                     Guitar, Math Club, Physics Club</p>
                   </Stack>
                 </CardContent>
@@ -172,10 +174,12 @@ const Education = () => {
             <h4 className="vertical-timeline-element--subtitle">Tangerang, Indonesia</h4>
             <p className="para">
               <ul>
-                <li>Won Bronze Medal in International Chemistry Olympiad (IChO) 2019 in Paris, France</li>
-                <li>Won Gold Medal in Chemistry in National Science Olympiad (OSN) 2018 in Padang, West Sumatera</li>
+                <li>Bronze Medallist of International Chemistry Olympiad 2019 in Paris, France</li>
+                <li>Gold Medallist in Chemistry of National Science Olympiad 2018 in Padang, West Sumatra</li>
                 <li>
-                  Co-curricular Activities: Scout, Kolintang
+                  <strong>Co-Curricular Activities:</strong> Scout,
+                  <a href={"https://youtu.be/Bq9-USYvCQs?si=kNhhXHZ1LzimasD3"}> Kulintang</a>,
+                  <a href={"https://bcomp.id/"}> Brilliant Competition</a>
                 </li>
               </ul>
             </p>
@@ -190,7 +194,7 @@ const Education = () => {
             >
             <h3 className="vertical-timeline-element--title">SMP Kristen Kanaan</h3>
             <h4 className="vertical-timeline-element--subtitle">Banjarmasin, Indonesia</h4>
-            <p className="para">Co-curricular Activities:<br></br>
+            <p className="para"><strong>Co-Curricular Activities:</strong><br></br>
               Guitar, Math Club, Physics Club</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
