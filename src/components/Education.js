@@ -114,7 +114,7 @@ const Education = () => {
                   <h3 className="vertical-timeline-element--title">SMP Kristen Kanaan</h3>
                   <h4 className="vertical-timeline-element--subtitle">Banjarmasin, Indonesia</h4>
                   <h4 className="vertical-timeline-element-date">July 2014 - June 2017</h4>
-                    <p className="para mobile"><strong>Co-Curricular Activities:</strong><br></br>
+                    <br/><p className="para mobile"><strong>Co-Curricular Activities:</strong><br></br>
                     Guitar, Math Club, Physics Club</p>
                   </Stack>
                 </CardContent>
