@@ -7,14 +7,16 @@ body {
   background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // background-position-x: 50vw;
-  // background-position-y: bottom;
   background-size: cover;
-  @media (max-width: 480px) {
+}
+@media (max-width: 480px) {
+  body {
     background-image: url("images/background-mobile.jpg");
     background-size: cover;
   }
-  @media (min-width: 481px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
     background-image: url("images/background-mobile.jpg");
     background-size: cover;
   }
@@ -27,17 +29,17 @@ p {
 a {
   text-decoration: none;
   color: black;
-  &.subtitle {
-    color: #616161;
-  }
+}
+a.subtitle {
+  color: #616161;
 }
 
 a:hover {
   transform: scale(1.12);
   color: #626161;
-  &.subtitle {
-    color: #878787;
-  }
+}
+a:hover.subtitle {
+  color: #878787;
 }
 
 .wave {
@@ -74,7 +76,6 @@ a:hover {
     transform: rotate(0deg);
   }
 }
-
 .less-opacity {
   opacity: 75%;
 }
@@ -86,11 +87,15 @@ a:hover {
 .outest-background {
   margin-left: 150px;
   margin-right: 150px;
-  @media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 767px) {
+  .outest-background {
     margin-left: 25px;
     margin-right: 25px;
   }
-  @media only screen and (min-width: 768px) and (max-width: 1079px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1079px) {
+  .outest-background {
     margin-left: 150px;
     margin-right: 150px;
   }
@@ -101,8 +106,7 @@ a:hover {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .calligraphy {
@@ -120,31 +124,30 @@ h1 {
 }
 
 .vertical-timeline-element {
-  // .vertical-timeline-element-content,
-  // .vertical-timeline {
   font-size: 30px;
   font-family: "Work Sans", sans-serif;
   margin-block-start: 0px;
   margin-block-end: 15px;
-  // padding: 20px;
-  &--title {
-    font-size: 22px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-  }
-  &--subtitle {
-    font-size: 16px;
-    font-style: normal;
-    color: #616161;
-    margin-block-end: 0px;
-    margin-block-start: 5px;
-  }
+}
+.vertical-timeline-element--title {
+  font-size: 22px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+.vertical-timeline-element--subtitle {
+  font-size: 16px;
+  font-style: normal;
+  color: #616161;
+  margin-block-end: 0px;
+  margin-block-start: 5px;
 }
 
 .vertical-timeline-element-date {
   font-size: 17px;
   font-family: "Work Sans", serif;
-  @media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 1024px) {
+  .vertical-timeline-element-date {
     font-size: 15px;
     font-weight: normal;
     font-style: italic;
@@ -158,7 +161,6 @@ h1 {
   max-height: 45px;
   width: auto;
   height: auto;
-  // aspect-ratio: 1200/1531;
 }
 
 .center {
@@ -167,13 +169,6 @@ h1 {
   margin-right: auto;
 }
 
-// .vertical-timeline--two-columns,
-// .vertical-timeline-element-content {
-//   // @media only screen and (min-width: 1170px) {
-//   padding: 0px;
-//   // }
-// }
-
 .card {
   font-size: 22px;
   font-family: "Work Sans", serif;
@@ -181,10 +176,10 @@ h1 {
   margin-block-end: 0px;
   text-decoration: none;
   color: black;
-  &:hover {
-    text-shadow: 1px 1px 2px #c9ddb8;
-    background: none;
-  }
+}
+.card:hover {
+  text-shadow: 1px 1px 2px #c9ddb8;
+  background: none;
 }
 
 .disable-deco {
@@ -201,14 +196,14 @@ h1 {
   line-height: 15px;
 }
 
-.padding-left {
-  @media only screen and (min-width: 1536px) {
+@media only screen and (min-width: 1536px) {
+  .padding-left {
     padding-left: 20px;
   }
 }
 
-.padding-right {
-  @media only screen and (min-width: 1536px) {
+@media only screen and (min-width: 1536px) {
+  .padding-right {
     padding-right: 20px;
   }
 }
@@ -222,12 +217,12 @@ h1 {
   line-height: 25px;
   text-align: justify;
   font-family: "Work Sans", serif;
-  &.mobile {
-    text-align: left;
-  }
-  &.small {
-    font-size: 14px;
-  }
+}
+.para.mobile {
+  text-align: left;
+}
+.para.small {
+  font-size: 14px;
 }
 
 .profile-cropped {
@@ -272,16 +267,16 @@ footer {
 .icon-small {
   height: 30px;
   width: 30px;
-  &:hover {
-    color: #894f4f;
-    transform: scale(1.1);
-    transition: transform 0.13s, visibility 0.13s ease-in;
-    transform-origin: 50% 50%;
-  }
+}
+.icon-small:hover {
+  color: #894f4f;
+  transform: scale(1.1);
+  transition: transform 0.13s, visibility 0.13s ease-in;
+  transform-origin: 50% 50%;
 }
 
 .navbar {
-  background-color: #fdb5b5; // to be determined later
+  background-color: #fdb5b5;
   height: 60px;
   padding-bottom: 5px;
   border-radius: 10px;
@@ -293,18 +288,13 @@ footer {
 
 .navbar-text {
   font-family: "Work Sans", sans-serif;
-  &:hover {
-    color: #894f4f;
-    transform: scale(1.1);
-    transition: transform 0.13s, visibility 0.13s ease-in;
-    transform-origin: 50% 50%;
-  }
 }
-
-// .work,
-// .vertical-timeline-element {
-//   background-color: #ffe3e3;
-// }
+.navbar-text:hover {
+  color: #894f4f;
+  transform: scale(1.1);
+  transition: transform 0.13s, visibility 0.13s ease-in;
+  transform-origin: 50% 50%;
+}
 
 .card-header {
   border-radius: 10px;
@@ -313,19 +303,19 @@ footer {
   justify-content: center;
   width: 400px;
   margin: auto;
-  &.mobile {
-    width: 300px;
-    margin-bottom: 15px;
-  }
-  &.exp {
-    background-color: #f2c088;
-  }
-  &.edu {
-    background-color: rgb(152, 221, 221);
-  }
-  &.works {
-    background-color: #c9ddb8;
-  }
+}
+.card-header.mobile {
+  width: 300px;
+  margin-bottom: 15px;
+}
+.card-header.exp {
+  background-color: #f2c088;
+}
+.card-header.edu {
+  background-color: rgb(152, 221, 221);
+}
+.card-header.works {
+  background-color: #c9ddb8;
 }
 
 .card-title {
@@ -334,3 +324,5 @@ footer {
   vertical-align: middle;
   line-height: 50px;
 }
+
+/*# sourceMappingURL=index.css.map */
