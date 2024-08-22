@@ -27,11 +27,17 @@ p {
 a {
   text-decoration: none;
   color: black;
+  &.subtitle {
+    color: #616161;
+  }
 }
 
 a:hover {
   transform: scale(1.12);
   color: #626161;
+  &.subtitle {
+    color: #878787;
+  }
 }
 
 .wave {
