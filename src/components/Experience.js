@@ -35,10 +35,14 @@ const Experience = () => {
                     <Stack justifyContent="space-evenly">
                       <h3 className="vertical-timeline-element--title">Student Researcher</h3>
                       <h4 className="vertical-timeline-element--subtitle">National University of Singapore</h4>
-                      <h4 className="vertical-timeline-element-date">August 2023 - Present</h4>
+                      <h4 className="vertical-timeline-element-date">August 2023 - April 2024</h4>
                       <p className="para">
-                        Currently doing <strong>Final Year Project</strong>, analysing the presence of bacteriophages
-                        in the genomes of <i>Pseudomonas aeruginosa</i> strains which are resistant to carbapenem.
+                        <br/><strong>Final Year Project in Bioinformatics:<br/></strong>
+                        Genomic analysis of bacteriophages located in the genomes of carbapenem-resistant
+                        <i> Pseudomonas aeruginosa.<br/><br/></i>
+                        <p className="para small">
+                          <strong>Supervisor:</strong> <a href={"https://sph.nus.edu.sg/faculty-directory/ong-twee-hee-rick/"}>
+                          Asst. Prof. Ong Twee Hee, Rick</a> (Saw Swee Hock School of Public Health)</p>
                       </p>
                     </Stack>
                   </CardContent>
@@ -108,7 +112,7 @@ const Experience = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="August 2023 - Present"
+            date="August 2023 - April 2024"
             contentStyle={{ borderRadius: '10px', background: '#f5ddc1', color: '#000' }}
             contentArrowStyle={{ borderRight: '7px solid #f5ddc1' }}
             iconStyle={{ background: '#f5ddc1', color: '#fff', alignItems:'center', display:'flex'}}
@@ -117,18 +121,23 @@ const Experience = () => {
             <h3 className="vertical-timeline-element--title">Student Researcher</h3>
             <h4 className="vertical-timeline-element--subtitle">National University of Singapore</h4>
             <p className="para">
-              Currently doing <strong>Final Year Project</strong>, analysing the presence of bacteriophages
-              in the genomes of <i>Pseudomonas aeruginosa</i> strains which are resistant to carbapenem.
+              <strong>Final Year Project in Bioinformatics:<br/></strong>
+              Genomic analysis of bacteriophages located in the genomes of carbapenem-resistant
+              <i> Pseudomonas aeruginosa<br/></i>
+              <p className="para small">
+                <strong>Supervisor:</strong><br/>
+                <a href={"https://sph.nus.edu.sg/faculty-directory/ong-twee-hee-rick/"}>
+                Asst. Prof. Ong Twee Hee, Rick</a> (NUS Saw Swee Hock School of Public Health)</p>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="December 2022 - February 2023"
-            contentStyle={{ borderRadius: '10px', background: '#f5ddc1', color: '#000' }}
-            contentArrowStyle={{ borderRight: '7px solid #f5ddc1' }}
-            iconStyle={{ background: '#f5ddc1', color: '#fff', alignItems:'center', display:'flex'}}
+            contentStyle={{borderRadius: '10px', background: '#f5ddc1', color: '#000'}}
+            contentArrowStyle={{borderRight: '7px solid #f5ddc1'}}
+            iconStyle={{background: '#f5ddc1', color: '#fff', alignItems: 'center', display: 'flex'}}
             icon={<img alt="AXS" src={axs} className="timeline-icon center"></img>}
-            >
+          >
             <h3 className="vertical-timeline-element--title">Android Developer</h3>
             <h4 className="vertical-timeline-element--subtitle">AXS</h4>
             <p className="para">
