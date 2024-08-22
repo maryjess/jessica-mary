@@ -69,9 +69,13 @@ const Experience = () => {
                       <h4 className="vertical-timeline-element-date">December 2022 - February 2023</h4>
                       <p className="para mobile">
                         <ul>
-                          <li>Refactored and maintained quality of code written in Java and PHP.</li>
-                          <li>Contributed to API deprecation update for over 10 Android API classes.</li>
-                          <li>Developed features of an Android mobile application in Java and MySQL.</li>
+                          <li>Leveraged Java and MySQL to design and implement new features within an Android mobile
+                            application to assist the Operations Team, contributed to its growth and user experience
+                            enhancement.</li>
+                          <li>Revitalised more than 10 deprecated Android API classes,
+                            ensuring seamless code functionality.</li>
+                          <li>Enhanced code quality and stability in Java and PHP
+                            through systematic refactoring and maintenance.</li>
                         </ul>
                       </p>
                     </Stack>
@@ -142,9 +146,11 @@ const Experience = () => {
             <h4 className="vertical-timeline-element--subtitle">AXS</h4>
             <p className="para">
               <ul>
-                <li>Refactored and maintained quality of code written in Java and PHP.</li>
-                <li>Contributed to API deprecation update for over 10 Android API classes.</li>
-                <li>Developed features of an Android mobile application in Java and MySQL.</li>
+                <li>Leveraged Java and MySQL to design and implement new features within an Android mobile application
+                  to assist the Operations Team, contributed to its growth and user experience enhancement.</li>
+                <li>Revitalised more than 10 deprecated Android API classes, ensuring seamless code functionality.</li>
+                <li>Enhanced code quality and stability in Java and PHP
+                  through systematic refactoring and maintenance.</li>
               </ul>
             </p>
           </VerticalTimelineElement>
