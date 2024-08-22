@@ -97,14 +97,18 @@ const Experience = () => {
                   sx={{padding: "30px", paddingBottom: "0px"}}
                 >
                   <Stack justifyContent="space-evenly">
-                  <h3 className="vertical-timeline-element--title">CS1010S Teaching Assistant</h3>
+                  <h3 className="vertical-timeline-element--title">Teaching Assistant</h3>
                   <h4 className="vertical-timeline-element--subtitle">National University of Singapore</h4>
                   <h4 className="vertical-timeline-element-date">August 2021 - December 2022</h4>
                   <p className="para mobile">
                     <ul>
-                      <li>Evaluated daily Python code submissions and conducted weekly tutorials for a cohort of 13 students.</li>
-                      <li>Achieved a mean teaching feedback score of 4.7 out of 5.0.</li>
-                      <li>Received the Honour List for Student Tutors during AY2021/2022.</li>
+                      <li>Evaluated daily Python code submissions on <a
+                        href={"https://coursemology.org/"}>Coursemology </a>
+                        and conducted weekly tutorials for a cohort of
+                        13 students in <a href={"https://nusmods.com/courses/CS1010S/programming-methodology"}>
+                          CS1010S (Programming Methodology).</a></li>
+                      <li>Achieved Mean Teaching Feedback score of 4.7/5.0.</li>
+                      <li>Received the Honour List for Student Tutors (AY 2021/2022).</li>
                     </ul>
                   </p>
                   </Stack>
@@ -162,13 +166,16 @@ const Experience = () => {
             iconStyle={{ background: '#f5ddc1', color: '#fff', alignItems:'center', display:'flex'}}
             icon={<img alt="NUS" src={nus} className="timeline-icon center"></img>}
             >
-            <h3 className="vertical-timeline-element--title">CS1010S Teaching Assistant</h3>
+            <h3 className="vertical-timeline-element--title">Teaching Assistant</h3>
             <h4 className="vertical-timeline-element--subtitle">National University of Singapore</h4>
             <p className="para">
               <ul>
-                <li>Evaluated daily Python code submissions and conducted weekly tutorials for a cohort of 13 students.</li>
-                <li>Achieved a mean teaching feedback score of 4.7 out of 5.0.</li>
-                <li>Received the Honour List for Student Tutors during AY2021/2022.</li>
+                <li>Evaluated daily Python code submissions on <a href={"https://coursemology.org/"}>Coursemology </a>
+                  and conducted weekly tutorials for a cohort of
+                  13 students in <a href={"https://nusmods.com/courses/CS1010S/programming-methodology"}>
+                    CS1010S (Programming Methodology).</a></li>
+                <li>Achieved Mean Teaching Feedback score of 4.7/5.0.</li>
+                <li>Received the Honour List for Student Tutors (AY 2021/2022).</li>
               </ul>
             </p>
           </VerticalTimelineElement>
