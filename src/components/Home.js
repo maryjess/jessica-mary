@@ -37,7 +37,7 @@ const Home = () => {
           <div className="para">
             My name is Jessica, freshly graduated from <strong>NUS Pharmaceutical Science </strong>
             &#8212; though my interest lies more towards <strong>Computer Science </strong>
-            &#8212; which led me to graduate with a minor.<p><br/></p>
+            &#8212; which led me to graduate with a minor.
             Currently, I love creating <strong>stuffs</strong> that help people.
             In my free time, I enjoy exploring new things and I am really passionate about music.
           </div>
