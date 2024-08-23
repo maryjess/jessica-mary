@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/jessica-mary/static/css/main.6928b7e0.css",
-    "main.js": "/jessica-mary/static/js/main.11269f33.js",
-    "static/js/787.0b7881d3.chunk.js": "/jessica-mary/static/js/787.0b7881d3.chunk.js",
-    "static/media/profile-picture.jpg": "/jessica-mary/static/media/profile-picture.baa735d76883c531ff32.jpg",
+    "main.css": "/jessica-mary/static/css/main.4296306f.css",
+    "main.js": "/jessica-mary/static/js/main.a5452c25.js",
+    "static/js/453.514c9734.chunk.js": "/jessica-mary/static/js/453.514c9734.chunk.js",
     "static/media/background.jpg": "/jessica-mary/static/media/background.e1b86bf1a393d2472cc7.jpg",
     "static/media/background-mobile.jpg": "/jessica-mary/static/media/background-mobile.47ac5bce722717f670c9.jpg",
+    "static/media/jessica-profile.png": "/jessica-mary/static/media/jessica-profile.07b10c52b16629754f1a.png",
     "static/media/nus.png": "/jessica-mary/static/media/nus.c07690eb252473d459db.png",
     "static/media/penabur.png": "/jessica-mary/static/media/penabur.929a23cd0eefa73042b0.png",
     "static/media/kanaan.png": "/jessica-mary/static/media/kanaan.f07230a75806503f3318.png",
     "static/media/internconnect.png": "/jessica-mary/static/media/internconnect.b92f4d944d8ed6abcb23.png",
+    "static/media/koffiku.png": "/jessica-mary/static/media/koffiku.c8d72954183b642169ba.png",
     "static/media/axs.png": "/jessica-mary/static/media/axs.99ffe627b1ec3102c47e.png",
     "static/media/mew.png": "/jessica-mary/static/media/mew.c200a72ddb27dbf1ad1d.png",
     "static/media/instagram.png": "/jessica-mary/static/media/instagram.ac32ec0a111aeba03298.png",
     "static/media/qr-bookmark.jpg": "/jessica-mary/static/media/qr-bookmark.417b857cca577fd77269.jpg",
+    "static/media/discord.png": "/jessica-mary/static/media/discord.5f588023b4a79c2857df.png",
     "static/media/github.png": "/jessica-mary/static/media/github.f11021803f68852df283.png",
+    "static/media/medium.png": "/jessica-mary/static/media/medium.dddeb1cf6a498fb7cd14.png",
+    "static/media/tiktok.png": "/jessica-mary/static/media/tiktok.f61d62f01c2f347eec0e.png",
     "static/media/youtube.png": "/jessica-mary/static/media/youtube.0b7c86fba1fbc433f761.png",
     "static/media/linkedin.png": "/jessica-mary/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/jessica-mary/index.html",
-    "main.6928b7e0.css.map": "/jessica-mary/static/css/main.6928b7e0.css.map",
-    "main.11269f33.js.map": "/jessica-mary/static/js/main.11269f33.js.map",
-    "787.0b7881d3.chunk.js.map": "/jessica-mary/static/js/787.0b7881d3.chunk.js.map"
+    "main.4296306f.css.map": "/jessica-mary/static/css/main.4296306f.css.map",
+    "main.a5452c25.js.map": "/jessica-mary/static/js/main.a5452c25.js.map",
+    "453.514c9734.chunk.js.map": "/jessica-mary/static/js/453.514c9734.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6928b7e0.css",
-    "static/js/main.11269f33.js"
+    "static/css/main.4296306f.css",
+    "static/js/main.a5452c25.js"
   ]
 }
