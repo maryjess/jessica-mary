@@ -105,7 +105,8 @@ const Experience = () => {
                   >
                     <Stack justifyContent="space-evenly">
                       <h3 className="vertical-timeline-element--title">Android Developer</h3>
-                      <h4 className="vertical-timeline-element--subtitle">AXS</h4>
+                      <h4 className="vertical-timeline-element--subtitle">
+                        <a className="subtitle" href="https://www.axs.com.sg/">AXS</a></h4>
                       <h4 className="vertical-timeline-element-date">December 2022 - February 2023</h4>
                       <p className="para mobile">
                         <ul>
@@ -218,7 +219,8 @@ const Experience = () => {
             icon={<img alt="AXS" src={axs} className="timeline-icon center"></img>}
           >
             <h3 className="vertical-timeline-element--title">Android Developer</h3>
-            <h4 className="vertical-timeline-element--subtitle">AXS</h4>
+            <h4 className="vertical-timeline-element--subtitle">
+              <a className="subtitle" href="https://www.axs.com.sg/">AXS</a></h4>
             <p className="para">
               <ul>
                 <li>Leveraged Java and MySQL to design and implement new features within an Android mobile application
