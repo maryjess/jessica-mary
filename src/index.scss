@@ -7,8 +7,6 @@ body {
   background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // background-position-x: 50vw;
-  // background-position-y: bottom;
   background-size: cover;
   @media (max-width: 480px) {
     background-image: url("images/background-mobile.jpg");
@@ -46,9 +44,6 @@ ul {
 
 li {
   padding-left: 8px;
-  //&.cca {
-  //  color: gray;
-  //}
 }
 
 a:hover {
@@ -127,35 +122,32 @@ code {
 .calligraphy {
   font-family: "Parisienne", cursive;
   font-size: 50px;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 h1 {
   font-size: 30px;
   font-family: "Work Sans", sans-serif;
-  margin-block-start: 0px;
+  margin-block-start: 0;
   margin-block-end: 15px;
 }
 
 .vertical-timeline-element {
-  // .vertical-timeline-element-content,
-  // .vertical-timeline {
   font-size: 30px;
   font-family: "Work Sans", sans-serif;
-  margin-block-start: 0px;
+  margin-block-start: 0;
   margin-block-end: 15px;
-  // padding: 20px;
   &--title {
     font-size: 22px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
+    margin-block-end: 0;
+    margin-block-start: 0;
   }
   &--subtitle {
     font-size: 16px;
     font-style: normal;
     color: #616161;
-    margin-block-end: 0px;
+    margin-block-end: 0;
     margin-block-start: 5px;
   }
 }
@@ -168,7 +160,7 @@ h1 {
     font-weight: normal;
     font-style: italic;
     margin-block-start: 5px;
-    margin-block-end: 0px;
+    margin-block-end: 0;
   }
 }
 
@@ -177,7 +169,6 @@ h1 {
   max-height: 45px;
   width: auto;
   height: auto;
-  // aspect-ratio: 1200/1531;
 }
 
 .center {
@@ -186,18 +177,11 @@ h1 {
   margin-right: auto;
 }
 
-// .vertical-timeline--two-columns,
-// .vertical-timeline-element-content {
-//   // @media only screen and (min-width: 1170px) {
-//   padding: 0px;
-//   // }
-// }
-
 .card {
   font-size: 22px;
   font-family: "Work Sans", serif;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
   text-decoration: none;
   color: black;
   &:hover {
@@ -266,7 +250,7 @@ h1 {
 }
 
 .Typewriter {
-  margin: 0px;
+  margin: 0;
 }
 
 .typewriter-wrapper {
@@ -320,11 +304,6 @@ footer {
   }
 }
 
-// .work,
-// .vertical-timeline-element {
-//   background-color: #ffe3e3;
-// }
-
 .card-header {
   border-radius: 10px;
   height: 55px;
@@ -349,7 +328,7 @@ footer {
 
 .card-title {
   text-align: center;
-  margin-block-end: 0px;
+  margin-block-end: 0;
   vertical-align: middle;
   line-height: 50px;
 }

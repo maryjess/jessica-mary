@@ -1,6 +1,5 @@
 import { Stack, Card, CardContent } from '@mui/material';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-// import { isMobile } from 'react-device-detect';
 import React from 'react';
 import nus from '../images/nus.png';
 import axs from '../images/axs.png';
