@@ -23,3 +23,6 @@ yarn-error.log*
 
 # IDE setups
 .idea/
+
+# photoshop files
+*.psd
