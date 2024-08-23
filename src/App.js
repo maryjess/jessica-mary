@@ -10,10 +10,6 @@ import useCheckMobileScreen from './hooks/useCheckMobileScreen';
 function App() {
   const isMobileScreen = useCheckMobileScreen();
   return (
-    // <div className="container">
-    //   <div className="sliding-background">
-    //   </div>
-    // </div>
     <div className="outest-background">
       <Navibar/>
       <Home/>
@@ -22,7 +18,7 @@ function App() {
         <Education/>
         <Projects/>
         {isMobileScreen ? 
-          <footer><center>&copy; {new Date().getFullYear()} Jessica Mary.<br></br>All Rights Reserved.</center></footer> :
+          <footer><center>&copy; {new Date().getFullYear()} Jessica Mary.<br/>All Rights Reserved.</center></footer> :
           <footer><center>&copy; {new Date().getFullYear()} Jessica Mary. All Rights Reserved.</center></footer>}
       </Stack>
     </div>

@@ -12,7 +12,12 @@ const Projects = () => {
       <div className={isMobileScreen? "card-header mobile works" : "card-header works"} id="projects">
         <h1 className="card-title">Projects</h1>
       </div>  
-      <Stack flexDirection={{xs:"column", xl:"row"}} justifyContent="center" alignItems="center" spacing={{xs: 2, xl: 0}}>
+      <Stack
+        flexDirection={{xs:"column", xl:"row"}}
+        justifyContent="center"
+        alignItems="center"
+        spacing={{xs: 2, xl: 0}}
+      >
         <div className="padding-right">
           <Card
             sx={{

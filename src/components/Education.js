@@ -53,8 +53,9 @@ const Education = () => {
                             <br/>Soprano 2 Section Leader</li>
                         </ul>
                         Community Engagement:<br/>
-                        <ul className="reset"><a href={"https://www.facebook.com/ifn.singapore/"}>
-                          Volunteered in <strong>Indonesian Family Network </strong></a>
+                        <ul className="reset">
+                          Volunteered in <a href={"https://www.facebook.com/ifn.singapore/"}>
+                          <strong> Indonesian Family Network </strong></a>
                           as Basic English Teacher
                         </ul>
                       </p>
@@ -83,7 +84,10 @@ const Education = () => {
                       <h4 className="vertical-timeline-element-date">July 2017 - June 2020</h4>
                       <p className="para mobile">
                         <ul>
-                          <li>Bronze Medallist of International Chemistry Olympiad 2019 in Paris, France</li>
+                          <li>Bronze Medallist of
+                            <a href={"https://icho2019.paris/en/"}> International Chemistry Olympiad 2019
+                            </a> in Paris, France
+                          </li>
                           <li>Gold Medallist in Chemistry of National Science Olympiad 2018 in Padang, West Sumatra</li>
                           <li>
                             <strong>Co-Curricular Activities:</strong> Scout,
@@ -156,8 +160,10 @@ const Education = () => {
                 </li>
               </ul>
               Community Engagement:<br/>
-              <ul className="reset"><a href={"https://www.facebook.com/ifn.singapore/"}>
-                Volunteered in <strong>Indonesian Family Network </strong></a>
+              <ul className="reset">
+                Volunteered in
+                <a href={"https://www.facebook.com/ifn.singapore/"}>
+                <strong> Indonesian Family Network </strong></a>
                 as Basic English Teacher
               </ul>
             </p>
@@ -174,10 +180,13 @@ const Education = () => {
             <h4 className="vertical-timeline-element--subtitle">Tangerang, Indonesia</h4>
             <p className="para">
               <ul>
-                <li>Bronze Medallist of International Chemistry Olympiad 2019 in Paris, France</li>
+                <li>Bronze Medallist of
+                  <a href={"https://icho2019.paris/en/"}> International Chemistry Olympiad 2019
+                  </a> in Paris, France
+                </li>
                 <li>Gold Medallist in Chemistry of National Science Olympiad 2018 in Padang, West Sumatra</li>
                 <li>
-                  <strong>Co-Curricular Activities:</strong> Scout,
+                  <strong>Co-Curricular Activities:</strong><br/> Scout,
                   <a href={"https://youtu.be/Bq9-USYvCQs?si=kNhhXHZ1LzimasD3"}> Kulintang</a>,
                   <a href={"https://bcomp.id/"}> Brilliant Competition</a>
                 </li>
