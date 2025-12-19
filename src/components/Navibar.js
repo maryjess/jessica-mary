@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material';
+import { Button, Stack, Switch } from '@mui/material';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import jmIconBlack from '../images/jm-icon-black.png';
 
@@ -8,22 +8,30 @@ const Navibar = () => {
     <div>
       {isMobileScreen ?
         <>
+          <div className="naviswitch mobile">
+            <Switch className="switch-dark-mode" />
+          </div>
         </> :
         <div className="navbar">
-          <Stack direction="row" spacing={5} alignItems="center" className="navitext">
-            <a href="/jessica-mary/" className="navi-bar-icon">
-              <img className="icon-small" src={jmIconBlack} alt="jm-icon"></img>
-            </a>
-            <a href="#experiences" className="disable-deco">
-              <h3 className="navbar-text">Experiences</h3>
-            </a>
-            <a href="#education" className="disable-deco">
-              <h3 className="navbar-text">Education</h3>
-            </a>
-            <a href="#projects" className="disable-deco">
-              <h3 className="navbar-text">Projects</h3>
-            </a>
-            {/* <h3 className="navbar-text">Blogs</h3> */}
+          <Stack direction="row" justifyContent="space-between">
+            <Stack direction="row" spacing={5} alignItems="center" className="navitext">
+              <a href="/jessica-mary/" className="navi-bar-icon">
+                <img className="icon-small" src={jmIconBlack} alt="jm-icon"></img>
+              </a>
+              <a href="#experiences" className="disable-deco">
+                <h3 className="navbar-text">Experiences</h3>
+              </a>
+              <a href="#education" className="disable-deco">
+                <h3 className="navbar-text">Education</h3>
+              </a>
+              <a href="#projects" className="disable-deco">
+                <h3 className="navbar-text">Projects</h3>
+              </a>
+              {/* <h3 className="navbar-text">Blogs</h3> */}
+            </Stack>
+            <Stack className="naviswitch">
+              <Switch className="switch-dark-mode" />
+            </Stack>
           </Stack>
         </div>
       }
