@@ -12,15 +12,15 @@ If not, please install them [here](https://nodejs.org/en).
 
 ### Guide
 
-1. Clone the code from GitHub by running:
+* Clone the code from GitHub by running:
 ```
 git clone https://github.com/maryjess/jessica-mary.git
 ```
-
-1. Update the necessary dependencies
+* Update the necessary dependencies
 ```
 npm install
 ```
-1. Run `npm start` on terminal
-1. If any browser did not start, open [this port](http://localhost:3000/).
-1. Congrats, you've opened my website on your local machine 🎉
+* Run `npm start` on terminal.
+* If any browser did not start, open [this port](http://localhost:3000/).
+
+Congrats, you've opened my website on your local machine 🎉
