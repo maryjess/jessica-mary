@@ -1,6 +1,6 @@
 import { Stack } from '@mui/material';
-import React from 'react';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
+import jmIconBlack from '../images/jm-icon-black.png';
 
 const Navibar = () => {
   const isMobileScreen = useCheckMobileScreen();
@@ -11,8 +11,8 @@ const Navibar = () => {
         </> :
         <div className="navbar">
           <Stack direction="row" spacing={5} alignItems="center" className="navitext">
-            <a href="/jessica-mary/" className="disable-deco">
-              <h3 className="navbar-text" >Jessica Mary</h3>
+            <a href="/jessica-mary/" className="navi-bar-icon">
+              <img className="icon-small" src={jmIconBlack} alt="jm-icon"></img>
             </a>
             <a href="#experiences" className="disable-deco">
               <h3 className="navbar-text">Experiences</h3>
