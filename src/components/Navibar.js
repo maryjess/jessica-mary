@@ -1,4 +1,4 @@
-import { Button, Stack, Switch } from '@mui/material';
+import { Stack, Switch } from '@mui/material';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import jmIconBlack from '../images/jm-icon-black.png';
 
