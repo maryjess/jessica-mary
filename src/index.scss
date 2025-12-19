@@ -4,10 +4,8 @@ body {
   font-family: "Work Sans", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #f6f2e8;
+
   @media (max-width: 480px) {
     background-image: url("images/background-mobile.jpg");
     background-size: cover;
@@ -288,7 +286,7 @@ footer {
 }
 
 .navbar {
-  background-color: #fdb5b5; // to be determined later
+  background-color: #ffcfcf; // to be determined later
   height: 60px;
   padding-bottom: 5px;
   border-radius: 10px;
@@ -320,13 +318,13 @@ footer {
     margin-bottom: 15px;
   }
   &.exp {
-    background-color: #f2c088;
+    background-color: #ecc79d;
   }
   &.edu {
-    background-color: rgb(152, 221, 221);
+    background-color: #86dbdb;
   }
   &.works {
-    background-color: #c9ddb8;
+    background-color: #93d586;
   }
 }
 

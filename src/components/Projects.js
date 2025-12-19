@@ -1,5 +1,4 @@
 import { Stack, Card, CardContent, CardMedia, CardActions, CardActionArea, Button } from '@mui/material';
-import React from 'react';
 import mew from '../images/mew.png';
 import qr_bookmark from '../images/qr-bookmark.jpg';
 import internconnect from '../images/internconnect.png';
