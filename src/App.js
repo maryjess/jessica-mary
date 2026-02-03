@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Navibar from './components/Navibar';
+import Certifications from './components/Certifications';
 import useCheckMobileScreen from './hooks/useCheckMobileScreen';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Experience/>
         <Education/>
         <Projects/>
+        <Certifications/>
         {isMobileScreen ? 
           <footer><center>&copy; {new Date().getFullYear()} Jessica Mary.<br/>All Rights Reserved.</center></footer> :
           <footer><center>&copy; {new Date().getFullYear()} Jessica Mary. All Rights Reserved.</center></footer>}
