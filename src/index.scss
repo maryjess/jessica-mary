@@ -385,6 +385,23 @@ footer {
   }
 }
 
+.badge {
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &.suicide {
+    width: 150px;
+  }
+  &.cloud {
+    width: 220px;
+  }
+}
+
 /* 🌙 Dark Mode */
 .dark {
   .material-ui-switch {
