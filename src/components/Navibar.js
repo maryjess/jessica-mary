@@ -1,15 +1,24 @@
 import { Stack, Switch } from '@mui/material';
+import { useState } from 'react';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import jmIconBlack from '../images/jm-icon-black.png';
 
 const Navibar = () => {
   const isMobileScreen = useCheckMobileScreen();
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
     <div>
       {isMobileScreen ?
         <>
           <div className="naviswitch mobile">
-            <Switch className="switch-dark-mode" />
+            <Switch 
+              className="switch-dark-mode" 
+              checked={darkMode}
+              onChange={(event) => {
+                setDarkMode(event.target.checked);
+              }}
+            />
           </div>
         </> :
         <div className="navbar">
@@ -33,7 +42,13 @@ const Navibar = () => {
               {/* <h3 className="navbar-text">Blogs</h3> */}
             </Stack>
             <Stack className="naviswitch">
-              <Switch className="switch-dark-mode" />
+              <Switch
+                className="switch-dark-mode" 
+                checked={darkMode}
+                onChange={(event) => {
+                  setDarkMode(event.target.checked);
+                }}
+              />
             </Stack>
           </Stack>
         </div>
