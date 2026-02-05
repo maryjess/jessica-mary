@@ -33,6 +33,41 @@ const Experience = () => {
                     sx={{padding: "30px", paddingBottom: "0px"}}
                   >
                     <Stack justifyContent="space-evenly">
+                      <h3 className="vertical-timeline-element--title">Research Assistant</h3>
+                      <h4 className="vertical-timeline-element--subtitle">Duke-NUS Medical School</h4>
+                      <h4 className="vertical-timeline-element-date">May 2025 - Present</h4>
+                      <p className="para mobile">
+                        <ul>
+                          <li>Conducted experiments involving cell culture, molecular biology techniques, animal work,
+                            and data analysis to support ongoing research projects.
+                          </li>
+                          <li>Managed the laboratory order and inventory, ensuring availability of essential supplies
+                            and equipment for smooth research operations.
+                          </li>
+                          <li>Prepared and maintained detailed laboratory records, ensuring compliance with regulatory standards.
+                          </li>
+                        </ul>
+                      </p>
+                    </Stack>
+                  </CardContent>
+                </div>
+              </Card>
+            </div>
+            <div className="padding-bottom">
+              <Card
+                sx={{
+                  width: "320px",
+                  height: "auto",
+                  borderRadius: "10px",
+                  backgroundColor: "#f5ddc1",
+                  display: "flex"
+                }}
+              >
+                <div className="card-contents">
+                  <CardContent
+                    sx={{padding: "30px", paddingBottom: "0px"}}
+                  >
+                    <Stack justifyContent="space-evenly">
                       <h3 className="vertical-timeline-element--title">Operations and Finance Intern</h3>
                       <h4 className="vertical-timeline-element--subtitle">CV. Freysea Indo Citra &#8212;
                         <a className="subtitle" href={"https://www.koffiku.com/"}>koffiku.com</a></h4>
