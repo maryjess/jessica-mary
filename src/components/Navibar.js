@@ -27,6 +27,9 @@ const Navibar = () => {
               <a href="#projects" className="disable-deco">
                 <h3 className="navbar-text">Projects</h3>
               </a>
+              <a href="#certifications" className="disable-deco">
+                <h3 className="navbar-text">Certifications</h3>
+              </a>
               {/* <h3 className="navbar-text">Blogs</h3> */}
             </Stack>
             <Stack className="naviswitch">
