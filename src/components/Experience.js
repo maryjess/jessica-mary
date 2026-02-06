@@ -1,9 +1,9 @@
 import { Stack, Card, CardContent } from '@mui/material';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import React from 'react';
 import nus from '../images/nus.png';
 import axs from '../images/axs.png';
 import koffiku from '../images/koffiku.png';
+import dukenus from '../images/dukenus-logo.png';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -196,6 +196,29 @@ const Experience = () => {
           </div>
         </Stack> :
         <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="May 2025 - Present"
+            contentStyle={{borderRadius: '10px', background: '#f5ddc1', color: '#000'}}
+            contentArrowStyle={{borderRight: '7px solid #f5ddc1'}}
+            iconStyle={{background: '#f5ddc1', color: '#fff', alignItems: 'center', display: 'flex'}}
+            icon={<img alt="duke-nus" src={dukenus} className="timeline-icon center"></img>}
+          >
+            <h3 className="vertical-timeline-element--title">Research Assistant</h3>
+            <h4 className="vertical-timeline-element--subtitle">Duke-NUS Medical School</h4>
+            <p className="para">
+              <ul>
+                <li>Conducted experiments involving cell culture, molecular biology techniques, animal work,
+                  and data analysis to support ongoing research projects.
+                </li>
+                <li>Managed the laboratory order and inventory, ensuring availability of essential supplies
+                  and equipment for smooth research operations.
+                </li>
+                <li>Prepared and maintained detailed laboratory records, ensuring compliance with regulatory standards.
+                </li>
+              </ul>
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May 2024 - June 2024"
