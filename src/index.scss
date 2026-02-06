@@ -4,7 +4,23 @@ body {
   font-family: "Work Sans", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fff8bf;
+  background-color: var(--background-color);
+}
+
+:root {
+  --background-color: #fff8bf;
+  --text-color: black;
+  --text-subtitle-color: #616161;
+  --text-hover-color: #626161;
+  --text-hover-subtitle-color: #878787;
+}
+
+html[data-theme='dark'] {
+  --background-color: #121312;
+  --text-color: white;
+  --text-subtitle-color: #bfbfbf;
+  --text-hover-color: #d7d7d7;
+  --text-hover-subtitle-color: #e2e2e2;
 }
 
 p {
@@ -13,9 +29,9 @@ p {
 
 a {
   text-decoration: none;
-  color: black;
+  color: var(--text-color);
   &.subtitle {
-    color: #616161;
+    color: var(--text-subtitle-color);
   }
 }
 
@@ -37,9 +53,9 @@ li {
 
 a:hover {
   transform: scale(1.12);
-  color: #626161;
+  color: var(--text-hover-color);
   &.subtitle {
-    color: #878787;
+    color: var(--text-hover-subtitle-color);
   }
 }
 
@@ -97,10 +113,6 @@ a:hover {
     margin-left: 150px;
     margin-right: 150px;
   }
-}
-
-.color-background {
-  background-color: #ddb699;
 }
 
 code {
@@ -408,7 +420,6 @@ footer {
 
 // Suggested Dark Mode Palette
 // Background:   #1B1A14
-// Surface:      #24231D
 // Primary:      #5FB5B5
 // Secondary:    #D29A5E
 // Accent:       #E48E8E

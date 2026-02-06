@@ -1,11 +1,20 @@
 import { Stack, Switch } from '@mui/material';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import jmIconBlack from '../images/jm-icon-black.png';
 
 const Navibar = () => {
   const isMobileScreen = useCheckMobileScreen();
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const saved = localStorage.getItem('theme');
+    return saved === 'dark';
+  });
+
+  useEffect(() => {
+    const theme = darkMode ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [darkMode]);
 
   return (
     <div>
