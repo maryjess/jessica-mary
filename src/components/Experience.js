@@ -7,7 +7,7 @@ import dukenus from '../images/dukenus-logo.png';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import 'react-vertical-timeline-component/style.min.css';
 
-const Experience = () => {
+const Experience = ({darkMode}) => {
   const isMobileScreen = useCheckMobileScreen();
   console.log(isMobileScreen);
   return (

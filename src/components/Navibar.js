@@ -1,20 +1,10 @@
 import { Stack, Switch } from '@mui/material';
-import { useState, useEffect } from 'react';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import jmIconBlack from '../images/jm-icon-black.png';
+import jmIconWhite from '../images/jm-icon.png';
 
-const Navibar = () => {
+const Navibar = ({darkMode, setDarkMode}) => {
   const isMobileScreen = useCheckMobileScreen();
-  const [darkMode, setDarkMode] = useState(() => {
-    const saved = localStorage.getItem('theme');
-    return saved === 'dark';
-  });
-
-  useEffect(() => {
-    const theme = darkMode ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-  }, [darkMode]);
 
   return (
     <div>
@@ -34,7 +24,7 @@ const Navibar = () => {
           <Stack direction="row" justifyContent="space-between">
             <Stack direction="row" spacing={5} alignItems="center" className="navitext">
               <a href="/jessica-mary/" className="navi-bar-icon">
-                <img className="icon-small" src={jmIconBlack} alt="jm-icon"></img>
+                {darkMode ? <img className="icon-small" src={jmIconWhite} alt="jm-icon"></img> : <img className="icon-small" src={jmIconBlack} alt="jm-icon"></img>}
               </a>
               <a href="#experiences" className="disable-deco">
                 <h3 className="navbar-text">Experiences</h3>
