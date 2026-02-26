@@ -6,6 +6,7 @@ import koffiku from '../images/koffiku.png';
 import dukenus from '../images/dukenus-logo.png';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import 'react-vertical-timeline-component/style.min.css';
+import '../index.scss';
 
 const Experience = ({darkMode}) => {
   const isMobileScreen = useCheckMobileScreen();
@@ -157,11 +158,8 @@ const Experience = ({darkMode}) => {
         </Stack> :
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work custom-timeline exp"
             date="May 2025 - Present"
-            contentStyle={{borderRadius: '10px', background: '#f5ddc1', color: '#000'}}
-            contentArrowStyle={{borderRight: '7px solid #f5ddc1'}}
-            iconStyle={{background: '#f5ddc1', color: '#fff', alignItems: 'center', display: 'flex'}}
             icon={<img alt="duke-nus" src={dukenus} className="timeline-icon center"></img>}
           >
             <h3 className="vertical-timeline-element--title">Research Assistant</h3>
@@ -180,11 +178,8 @@ const Experience = ({darkMode}) => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work custom-timeline exp"
             date="May 2024 - June 2024"
-            contentStyle={{borderRadius: '10px', background: '#f5ddc1', color: '#000'}}
-            contentArrowStyle={{borderRight: '7px solid #f5ddc1'}}
-            iconStyle={{background: '#f5ddc1', color: '#fff', alignItems: 'center', display: 'flex'}}
             icon={<img alt="koffiku" src={koffiku} className="timeline-icon center"></img>}
           >
             <h3 className="vertical-timeline-element--title">Operations and Finance Intern</h3>
@@ -208,11 +203,8 @@ const Experience = ({darkMode}) => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work custom-timeline exp"
             date="August 2023 - April 2024"
-            contentStyle={{borderRadius: '10px', background: '#f5ddc1', color: '#000'}}
-            contentArrowStyle={{borderRight: '7px solid #f5ddc1'}}
-            iconStyle={{background: '#f5ddc1', color: '#fff', alignItems: 'center', display: 'flex'}}
             icon={<img alt="NUS" src={nus} className="timeline-icon center"></img>}
           >
             <h3 className="vertical-timeline-element--title">Student Researcher</h3>
@@ -228,11 +220,8 @@ const Experience = ({darkMode}) => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work custom-timeline exp"
             date="December 2022 - February 2023"
-            contentStyle={{borderRadius: '10px', background: '#f5ddc1', color: '#000'}}
-            contentArrowStyle={{borderRight: '7px solid #f5ddc1'}}
-            iconStyle={{background: '#f5ddc1', color: '#fff', alignItems: 'center', display: 'flex'}}
             icon={<img alt="AXS" src={axs} className="timeline-icon center"></img>}
           >
             <h3 className="vertical-timeline-element--title">Android Developer</h3>
@@ -249,11 +238,8 @@ const Experience = ({darkMode}) => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work custom-timeline exp"
             date="August 2021 - December 2022"
-            contentStyle={{ borderRadius: '10px', background: '#f5ddc1', color: '#000' }}
-            contentArrowStyle={{ borderRight: '7px solid #f5ddc1' }}
-            iconStyle={{ background: '#f5ddc1', color: '#fff', alignItems:'center', display:'flex'}}
             icon={<img alt="NUS" src={nus} className="timeline-icon center"></img>}
             >
             <h3 className="vertical-timeline-element--title">Teaching Assistant</h3>

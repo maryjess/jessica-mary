@@ -1,10 +1,11 @@
-import React from 'react';
 import nus from '../images/nus.png';
 import penabur from '../images/penabur.png';
 import kanaan from '../images/kanaan.png';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import { Stack, Card, CardContent } from '@mui/material';
+import 'react-vertical-timeline-component/style.min.css';
+import '../index.scss';
 
 const Education = () => {
   const isMobileScreen = useCheckMobileScreen();
@@ -17,15 +18,7 @@ const Education = () => {
         <Stack direction="column" justifyContent="center" alignItems="center" spacing={4}>
           <div className="padding-right">
             <div className="padding-bottom">
-              <Card
-                sx={{
-                  width: "320px",
-                  height: "auto",
-                  borderRadius: "10px",
-                  backgroundColor: "#dcf5f5",
-                  display: "flex"
-                }}
-              >
+              <Card className="card-mobile edu">
                 <div className="card-contents">
                   <CardContent
                     sx={{padding: "30px", paddingBottom: "0px"}}
@@ -65,15 +58,7 @@ const Education = () => {
               </Card>
             </div>
             <div className="padding-bottom">
-              <Card
-                sx={{
-                  width: "320px",
-                  height: "auto",
-                  borderRadius: "10px",
-                  backgroundColor: "#dcf5f5",
-                  display: "flex"
-                }}
-              >
+              <Card className="card-mobile edu">
                 <div className="card-contents">
                   <CardContent
                     sx={{padding: "30px", paddingBottom: "0px"}}
@@ -101,15 +86,7 @@ const Education = () => {
                 </div>
               </Card>
             </div>
-            <Card
-              sx={{
-                width: "320px",
-                height: "auto",
-                borderRadius: "10px",
-                backgroundColor: "#dcf5f5",
-                display: "flex"
-              }}
-            >
+            <Card className="card-mobile edu">
               <div className="card-contents">
                 <CardContent
                   sx={{padding: "30px", paddingBottom: "0px"}}
@@ -128,11 +105,8 @@ const Education = () => {
         </Stack> :
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work custom-timeline edu"
             date="August 2020 - May 2024"
-            contentStyle={{ borderRadius: '10px', background: '#dcf5f5', color: '#000' }}
-            contentArrowStyle={{ borderRight: '7px solid #dcf5f5' }}
-            iconStyle={{ background: '#dcf5f5', color: '#fff', alignItems:'center', display:'flex'}}
             icon={<img alt="NUS" src={nus} className="timeline-icon center"></img>}
             >
             <h3 className="vertical-timeline-element--title">National University of Singapore</h3>
@@ -169,11 +143,8 @@ const Education = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work custom-timeline edu"
             date="July 2017 - June 2020"
-            contentStyle={{borderRadius: '10px', background: '#dcf5f5', color: '#000'}}
-            contentArrowStyle={{borderRight: '7px solid #dcf5f5'}}
-            iconStyle={{background: '#dcf5f5', color: '#fff', alignItems: 'center', display: 'flex'}}
             icon={<img alt="Penabur" src={penabur} className="timeline-icon center"></img>}
           >
             <h3 className="vertical-timeline-element--title">SMAK Penabur Gading Serpong</h3>
@@ -194,11 +165,8 @@ const Education = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work custom-timeline edu"
             date="July 2014 - June 2017"
-            contentStyle={{ borderRadius: '10px', background: '#dcf5f5', color: '#000' }}
-            contentArrowStyle={{ borderRight: '7px solid #dcf5f5' }}
-            iconStyle={{ background: '#dcf5f5', color: '#fff', alignItems:'center', display:'flex'}}
             icon={<img alt="Kanaan" src={kanaan} className="timeline-icon center"></img>}
             >
             <h3 className="vertical-timeline-element--title">SMP Kristen Kanaan</h3>

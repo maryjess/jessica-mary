@@ -3,6 +3,8 @@ import mew from '../images/mew.png';
 import qr_bookmark from '../images/qr-bookmark.jpg';
 import internconnect from '../images/internconnect.png';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
+import 'react-vertical-timeline-component/style.min.css';
+import '../index.scss';
 
 const Projects = () => {
   const isMobileScreen = useCheckMobileScreen();
@@ -10,7 +12,7 @@ const Projects = () => {
     <Stack spacing={isMobileScreen ? 0 : 2} justifyContent="center" alignItems="center">
       <div className={isMobileScreen? "card-header mobile works" : "card-header works"} id="projects">
         <h1 className="card-title">Projects</h1>
-      </div>  
+      </div>
       <Stack
         flexDirection={{xs:"column", xl:"row"}}
         justifyContent="center"
@@ -18,15 +20,7 @@ const Projects = () => {
         spacing={{xs: 2, xl: 0}}
       >
         <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "450px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+          <Card className="card-mobile works">
             <div className="card-contents">
               <CardActionArea href="https://ay2223s1-cs2103-f14-2.github.io/tp/">
                 <CardMedia

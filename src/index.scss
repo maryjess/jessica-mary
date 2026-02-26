@@ -15,10 +15,17 @@ body {
   --text-hover-color: #626161;
   --text-hover-subtitle-color: #878787;
   --navbar-background-color: #ffcfcf;
+
   --exp-background-color: #f5ddc1;
+  --exp-icon-background-color: #f5ddc1;
   --exp-header-background-color: #ecc79d;
-  --edu-background-color: #86dbdb;
+
+  --edu-background-color: #dcf5f5;
+  --edu-icon-background-color: #dcf5f5;
+  --edu-header-background-color: #86dbdb;
+
   --works-background-color: #93d586;
+  --works-header-background-color: #93d586;
 }
 
 html[data-theme='dark'] {
@@ -29,10 +36,17 @@ html[data-theme='dark'] {
   --text-hover-color: #d7d7d7;
   --text-hover-subtitle-color: #e2e2e2;
   --navbar-background-color: #1f1f1f;
+
   --exp-background-color: #5A422A;
+  --exp-icon-background-color: #b7a897;
   --exp-header-background-color: #3e2a17;
-  --edu-background-color: #3A6B6B;
-  --works-background-color: #4B6E4B;
+
+  --edu-background-color: #315d5d;
+  --edu-icon-background-color: #8bc4c4;
+  --edu-header-background-color: #1c3d3d;
+
+  --works-background-color: #6d906d;
+  --works-header-background-color: #2f472f;
 }
 
 p {
@@ -352,10 +366,10 @@ footer {
     background-color: var(--exp-header-background-color);
   }
   &.edu {
-    background-color: var(--edu-background-color);
+    background-color: var(--edu-header-background-color);
   }
   &.works {
-    background-color: var(--works-background-color);
+    background-color: var(--works-header-background-color);
   }
 }
 
@@ -449,6 +463,35 @@ footer {
   }
   &.cloud {
     width: 220px;
+  }
+}
+
+.custom-timeline {
+  .vertical-timeline-element-content {
+    border-radius: 10px;
+    background: var(--card-bg);
+    color: var(--text-color);
+  }
+
+  .vertical-timeline-element-content-arrow {
+    border-right: 7px solid var(--card-bg);
+  }
+
+  .vertical-timeline-element-icon {
+    background: var(--icon-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.exp {
+    --card-bg: var(--exp-background-color);
+    --icon-bg: var(--exp-icon-background-color);
+  }
+
+  &.edu {
+    --card-bg: var(--edu-background-color);
+    --icon-bg: var(--edu-icon-background-color);
   }
 }
 
