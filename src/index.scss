@@ -24,7 +24,7 @@ body {
   --edu-icon-background-color: #dcf5f5;
   --edu-header-background-color: #86dbdb;
 
-  --works-background-color: #93d586;
+  --works-background-color: #efffe0;
   --works-header-background-color: #93d586;
 }
 
@@ -45,19 +45,40 @@ html[data-theme='dark'] {
   --edu-icon-background-color: #8bc4c4;
   --edu-header-background-color: #1c3d3d;
 
-  --works-background-color: #6d906d;
+  --works-background-color: #4b6c4b;
   --works-header-background-color: #2f472f;
 }
 
 p {
   margin: 0;
+  &.para {
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: "Work Sans", serif;
+    padding-bottom: 10px;
+    color: var(--text-color);
+  }
 }
 
 a {
   text-decoration: none;
   color: var(--text-color);
+  padding-bottom: 10px;
   &.subtitle {
     color: var(--text-subtitle-color);
+  }
+  &:hover {
+    transform: scale(1.12);
+    color: var(--text-hover-color);
+    &.subtitle {
+      color: var(--text-hover-subtitle-color);
+    }
+    &.card {
+      transform: scale(1.01);
+      text-shadow: 0.5px 0.5px 0.5px #dddddd;
+      background: none;
+    }
   }
 }
 
@@ -75,14 +96,6 @@ ul {
 
 li {
   padding-left: 8px;
-}
-
-a:hover {
-  transform: scale(1.12);
-  color: var(--text-hover-color);
-  &.subtitle {
-    color: var(--text-hover-subtitle-color);
-  }
 }
 
 .wave {
@@ -213,10 +226,6 @@ h1 {
   margin-block-end: 0;
   text-decoration: none;
   color: black;
-  &:hover {
-    text-shadow: 1px 1px 2px #c9ddb8;
-    background: none;
-  }
 }
 
 .disable-deco {
@@ -373,8 +382,7 @@ footer {
   }
 }
 
-.card-mobile {
-  width: 320px !important;
+.card-body {
   height: auto !important;
   border-radius: 10px !important;
   display: flex !important;
@@ -386,6 +394,12 @@ footer {
   }
   &.works {
     background-color: var(--works-background-color) !important; 
+  }
+  &.mobile {
+    width: 380px !important;
+  }
+  &.desktop {
+    width: 450px !important;
   }
 }
 
@@ -492,6 +506,28 @@ footer {
   &.edu {
     --card-bg: var(--edu-background-color);
     --icon-bg: var(--edu-icon-background-color);
+  }
+}
+
+.button {
+  font-family: "Work Sans", serif !important;
+  text-transform: none !important;
+  &.learn-more {
+    color: #fff !important;
+    background-color: #47864a !important;
+  
+    &:hover {
+      background-color: #28552b !important;
+    }
+  }
+  &.source-code {
+    border-color: #b6c8a6 !important;
+    color: #8c9f7c !important;
+  
+    &:hover {
+      background-color: #b6c8a6 !important;
+      color: #495d37 !important;
+    }
   }
 }
 

@@ -20,7 +20,7 @@ const Experience = ({darkMode}) => {
         <Stack direction="column" justifyContent="center" alignItems="center" spacing={4}>
           <div className="padding-right">
             <div className="padding-bottom">
-              <Card className="card-mobile exp">
+              <Card className="card-body mobile exp">
                 <div className="card-contents">
                   <CardContent
                     sx={{padding: "30px", paddingBottom: "0px"}}
@@ -49,7 +49,7 @@ const Experience = ({darkMode}) => {
               </Card>
             </div>
             <div className="padding-bottom">
-              <Card className="card-mobile exp">
+              <Card className="card-body mobile exp">
                 <div className="card-contents">
                   <CardContent
                     sx={{padding: "30px", paddingBottom: "0px"}}
@@ -79,7 +79,7 @@ const Experience = ({darkMode}) => {
               </Card>
             </div>
             <div className="padding-bottom">
-              <Card className="card-mobile exp">
+              <Card className="card-body mobile exp">
                 <div className="card-contents">
                   <CardContent
                     sx={{padding: "30px", paddingBottom: "0px"}}
@@ -103,7 +103,7 @@ const Experience = ({darkMode}) => {
               </Card>
             </div>
             <div className="padding-bottom">
-              <Card className="card-mobile exp">
+              <Card className="card-body mobile exp">
                 <div className="card-contents">
                   <CardContent
                     sx={{padding: "30px", paddingBottom: "0px"}}
@@ -132,7 +132,7 @@ const Experience = ({darkMode}) => {
                 </div>
               </Card>
           </div>
-            <Card className="card-mobile exp">
+            <Card className="card-body mobile exp">
               <div className="card-contents">
                 <CardContent
                   sx={{padding: "30px", paddingBottom: "0px"}}

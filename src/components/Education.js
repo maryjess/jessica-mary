@@ -18,7 +18,7 @@ const Education = () => {
         <Stack direction="column" justifyContent="center" alignItems="center" spacing={4}>
           <div className="padding-right">
             <div className="padding-bottom">
-              <Card className="card-mobile edu">
+              <Card className="card-body mobile edu">
                 <div className="card-contents">
                   <CardContent
                     sx={{padding: "30px", paddingBottom: "0px"}}
@@ -58,7 +58,7 @@ const Education = () => {
               </Card>
             </div>
             <div className="padding-bottom">
-              <Card className="card-mobile edu">
+              <Card className="card-body mobile edu">
                 <div className="card-contents">
                   <CardContent
                     sx={{padding: "30px", paddingBottom: "0px"}}
@@ -86,7 +86,7 @@ const Education = () => {
                 </div>
               </Card>
             </div>
-            <Card className="card-mobile edu">
+            <Card className="card-body mobile edu">
               <div className="card-contents">
                 <CardContent
                   sx={{padding: "30px", paddingBottom: "0px"}}
