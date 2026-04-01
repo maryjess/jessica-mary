@@ -31,13 +31,15 @@ const Experience = ({darkMode}) => {
                       <h4 className="vertical-timeline-element-date">May 2025 - Present</h4>
                       <p className="para mobile">
                         <ul>
-                          <li>Conducted experiments involving cell culture, molecular biology techniques, animal work,
-                            and data analysis to support ongoing research projects.
+                          <li>Investigated sexual transmission dynamics of Zika virus from IFNAR1-deficient male mice
+                            to wildtype females, contributing to a research project on viral pathogenesis.
                           </li>
-                          <li>Managed the laboratory order and inventory, ensuring availability of essential supplies
-                            and equipment for smooth research operations.
+                          <li>Performed a broad range of laboratory techniques including cell and viral culture,
+                            murine model management (injection, pairing, and tissue harvesting), plaque assay,
+                            RNA extraction, cDNA synthesis, qPCR, cryostat histology sectioning, and staining.
                           </li>
-                          <li>Prepared and maintained detailed laboratory records, ensuring compliance with regulatory standards.
+                          <li>Managed lab operations as lab officer, overseeing procurement, inventory management,
+                            invoicing, and administrative coordination to ensure smooth day-to-day functioning.
                           </li>
                         </ul>
                       </p>
@@ -165,14 +167,16 @@ const Experience = ({darkMode}) => {
             <h3 className="vertical-timeline-element--title">Research Assistant</h3>
             <h4 className="vertical-timeline-element--subtitle">Duke-NUS Medical School</h4>
             <p className="para">
-              <ul>
-                <li>Conducted experiments involving cell culture, molecular biology techniques, animal work,
-                  and data analysis to support ongoing research projects.
+              <ul>  
+                <li>Investigated sexual transmission dynamics of Zika virus from IFNAR1-deficient male mice
+                  to wildtype females, contributing to a research project on viral pathogenesis.
                 </li>
-                <li>Managed the laboratory order and inventory, ensuring availability of essential supplies
-                  and equipment for smooth research operations.
+                <li>Performed a broad range of laboratory techniques including cell and viral culture,
+                  murine model management (injection, pairing, and tissue harvesting), plaque assay,
+                  RNA extraction, cDNA synthesis, qPCR, cryostat histology sectioning, and staining.
                 </li>
-                <li>Prepared and maintained detailed laboratory records, ensuring compliance with regulatory standards.
+                <li>Managed lab operations as lab officer, overseeing procurement, inventory management,
+                  invoicing, and administrative coordination to ensure smooth day-to-day functioning.
                 </li>
               </ul>
             </p>
