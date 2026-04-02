@@ -18,7 +18,7 @@ const Certifications = () => {
   const isMobileScreen = useCheckMobileScreen();
   return (
     <Stack spacing={isMobileScreen ? 0 : 2} justifyContent="center" alignItems="center">
-      <div className={isMobileScreen? "card-header mobile works" : "card-header works"} id="certifications">
+      <div className={isMobileScreen? "card-header mobile cert" : "card-header cert"} id="certifications">
         <h1 className="card-title">Certifications</h1>
       </div>  
       <Stack
@@ -27,21 +27,13 @@ const Certifications = () => {
         alignItems="center"
         spacing={{xs: 2, xl: 0}}
       >
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "430px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
+                <Stack justifyContent="space-evenly" alignItems="center">
                   <a 
                     href="https://www.skills.google/public_profiles/acb77369-bd50-44ee-b231-2042ad209994/badges/3152270?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
                     className="badge cloud"
@@ -52,37 +44,28 @@ const Certifications = () => {
                       className="badge cloud"
                     />
                   </a>
-                  <h3 className="card">Google Cloud Computing Foundations: Cloud Computing Fundamentals</h3>
+                  <h3 className="vertical-timeline-element--title cert">Google Cloud Computing Foundations: Cloud Computing Fundamentals</h3>
                   <p className="para less-spacing">Obtained 23 January 2023</p>
                   <CardActions>
-                    <Stack direction="row" spacing={2}>
-                      <Button 
-                        id="card-button"
-                        href="https://www.skills.google/public_profiles/acb77369-bd50-44ee-b231-2042ad209994/badges/3152270?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
-                        sx={{fontFamily: "Work Sans", textTransform: "none"}} 
-                        variant="contained" 
-                        color="success" 
-                        size="small"
-                      >
-                        Learn More
-                      </Button>
-                    </Stack>
+                    <Button 
+                      id="card-button"
+                      href="https://www.skills.google/public_profiles/acb77369-bd50-44ee-b231-2042ad209994/badges/3152270?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+                      sx={{fontFamily: "Work Sans", textTransform: "none"}} 
+                      variant="contained" 
+                      color="success" 
+                      size="small"
+                      className= "button learn-more cert"
+                    >
+                      Learn More
+                    </Button>
                   </CardActions>
                 </Stack>
               </CardContent>
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "430px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://courses.edx.org/certificates/e830f961250b45138c80264542a11ec2?_gl=1*1cznuwh*_ga*MTE3OTI0NzcyMi4xNjg2MzcwMzQz*_ga_D3KS4KMDT0*MTY5MDYzNDkwNi42NS4xLjE2OTA2MzY1MDQuNDIuMC4w">
                 <CardMedia
@@ -98,8 +81,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                  <h3 className="card">Databases: Advanced Topics in SQL</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                  <h3 className="vertical-timeline-element--title cert">Databases: Advanced Topics in SQL</h3>
                   <p className="para less-spacing">Obtained 29 July 2023</p>
                   <CardActions>
                     <Stack direction="row" spacing={2}>
@@ -110,6 +93,7 @@ const Certifications = () => {
                         variant="contained" 
                         color="success" 
                         size="small"
+                        className="button learn-more cert"
                       >
                         Learn More
                       </Button>
@@ -120,16 +104,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "395px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://courses.edx.org/certificates/cac8965d1916480fb39983de2922345c">
                 <CardMedia
@@ -145,8 +121,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                  <h3 className="card">AnalyticsX: Big Data Analytics</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                  <h3 className="vertical-timeline-element--title cert">AnalyticsX: Big Data Analytics</h3>
                   <p className="para less-spacing">Obtained 30 July 2023</p>
                   <CardActions>
                     <Stack direction="row" spacing={2}>
@@ -157,6 +133,7 @@ const Certifications = () => {
                         variant="contained" 
                         color="success" 
                         size="small"
+                        className="button learn-more cert"
                       >
                         Learn More
                       </Button>
@@ -167,16 +144,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "470px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://www.coursera.org/account/accomplishments/certificate/K2R99Z5F399P">
                 <CardMedia
@@ -192,8 +161,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">Work with Components in Figma</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">Work with Components in Figma</h3>
                     <p className="para less-spacing">Obtained 15 September 2023</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
@@ -204,6 +173,7 @@ const Certifications = () => {
                           variant="contained" 
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>
@@ -214,21 +184,13 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "410px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
+                <Stack justifyContent="space-evenly" alignItems="center">
                   <a 
                     href="https://credentials.nus.edu.sg/47cc4226-426e-4481-808e-8911cb50c6d0#acc.EK0u2yri"
                     className="badge suicide"
@@ -239,7 +201,7 @@ const Certifications = () => {
                       className="badge suicide"
                     />
                   </a>
-                  <h3 className="card">Suicide Awareness & Prevention</h3>
+                  <h3 className="vertical-timeline-element--title cert">Suicide Awareness & Prevention</h3>
                   <p className="para less-spacing">Obtained 15 March 2024</p>
                   <CardActions>
                     <Stack direction="row" spacing={2}>
@@ -250,6 +212,7 @@ const Certifications = () => {
                           variant="contained" 
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                       >
                           Learn More
                       </Button>
@@ -260,16 +223,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "470px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/ZZswQd6xGydd758vz_Cognizant_YXefMKAeqo9No3akb_1714289895000_completion_certificate.pdf">
                 <CardMedia
@@ -285,8 +240,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">Cognizant - Agile Methodology Job Simulation</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">Cognizant - Agile Methodology Job Simulation</h3>
                     <p className="para less-spacing">Obtained 28 April 2024</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
@@ -297,6 +252,7 @@ const Certifications = () => {
                           variant="contained" 
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>
@@ -307,16 +263,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "470px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://www.coursera.org/account/accomplishments/verify/K8WSCLJFKV9L">
                 <CardMedia
@@ -332,8 +280,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">Object-Oriented Programming in Python</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">Object-Oriented Programming in Python</h3>
                     <p className="para less-spacing">Obtained 28 April 2024</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
@@ -344,6 +292,7 @@ const Certifications = () => {
                           variant="contained"
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>
@@ -354,16 +303,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "470px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/5N2ygyhzMWjKQmgCK_Cognizant_YXefMKAeqo9No3akb_1717845366725_completion_certificate.pdf">
                 <CardMedia
@@ -379,8 +320,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">Cognizant - Artificial Intelligence Job Simulation</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">Cognizant - Artificial Intelligence Job Simulation</h3>
                     <p className="para less-spacing">Obtained 8 June 2024</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
@@ -391,6 +332,7 @@ const Certifications = () => {
                           variant="contained"
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>
@@ -401,16 +343,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "470px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://verify.compfest.id/verify/cf-2024-4c4d92a1-ebc8-45ce-bbb0-af4f666f0cc1">
                 <CardMedia
@@ -426,8 +360,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">XCelerate Data Science Seminar</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">XCelerate Data Science Seminar</h3>
                     <p className="para less-spacing">Obtained 23 September 2024</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
@@ -438,6 +372,7 @@ const Certifications = () => {
                           variant="contained"
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>
@@ -448,16 +383,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "470px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://www.coursera.org/account/accomplishments/verify/OF5CGBDIKSU9">
                 <CardMedia
@@ -473,8 +400,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">Essential Linear Algebra for Data Science</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">Essential Linear Algebra for Data Science</h3>
                     <p className="para less-spacing">Obtained 31 December 2024</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
@@ -485,6 +412,7 @@ const Certifications = () => {
                           variant="contained"
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>
@@ -495,16 +423,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "470px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://www.citiprogram.org/verify/?w7b065129-6dfd-467e-86b5-ffe6e93b970f-69732911">
                 <CardMedia
@@ -520,8 +440,8 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">Responsible Conduct of Research - Basic</h3>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">Responsible Conduct of Research - Basic</h3>
                     <p className="para less-spacing">Obtained 28 May 2025</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
@@ -532,6 +452,7 @@ const Certifications = () => {
                           variant="contained"
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>
@@ -542,16 +463,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "500px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://www.citiprogram.org/verify/?w41c67252-4d25-4f2d-9400-54bce9e631aa-69732910">
                 <CardMedia
@@ -567,10 +480,10 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">Data or Specimens Only Research - Basic/Refresher</h3>
-                    <p className="para less-spacing">Obtained 3 June 2025</p>
-                    <p className="para less-spacing">Expires 3 June 2030</p>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">Data or Specimens Only Research - Basic/Refresher</h3>
+                    <p className="para less-spacing citi">Obtained 3 June 2025</p>
+                    <p className="para less-spacing citi">Expires 3 June 2030</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
                         <Button 
@@ -580,6 +493,7 @@ const Certifications = () => {
                           variant="contained"
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>
@@ -590,16 +504,8 @@ const Certifications = () => {
             </div>
           </Card>
         </div>
-        <div className="padding-right">
-          <Card
-            sx={{
-              width: isMobileScreen ? "320px" : "450px",
-              height: "500px",
-              borderRadius: "10px",
-              backgroundColor: "#efffe0",
-              display: "flex"
-            }}
-          >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile cert" : "card-body desktop cert"}>
             <div className="card-contents">
               <CardActionArea href="https://www.citiprogram.org/verify/?we50f8018-ac8b-4905-8d85-f00f089e55b8-69750070">
                 <CardMedia
@@ -615,10 +521,10 @@ const Certifications = () => {
               <CardContent
                 sx={{padding: "30px", paddingBottom: "0px"}}
               >
-                <Stack justifyContent="space-evenly">
-                    <h3 className="card">Biomedical Research - Basic/Refresher</h3>
-                    <p className="para less-spacing">Obtained 3 June 2025</p>
-                    <p className="para less-spacing">Expires 3 June 2030</p>
+                <Stack justifyContent="space-evenly" alignItems="center">
+                    <h3 className="vertical-timeline-element--title cert">Biomedical Research - Basic/Refresher</h3>
+                    <p className="para less-spacing citi">Obtained 3 June 2025</p>
+                    <p className="para less-spacing citi">Expires 3 June 2030</p>
                     <CardActions>
                       <Stack direction="row" spacing={2}>
                         <Button 
@@ -628,6 +534,7 @@ const Certifications = () => {
                           variant="contained"
                           color="success" 
                           size="small"
+                          className="button learn-more cert"
                         >
                           Learn More
                         </Button>

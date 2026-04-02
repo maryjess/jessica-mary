@@ -26,6 +26,9 @@ body {
 
   --works-background-color: #efffe0;
   --works-header-background-color: #93d586;
+
+  --cert-background-color: #ede8f5;
+  --cert-header-background-color: #b39ddb;
 }
 
 html[data-theme='dark'] {
@@ -47,6 +50,9 @@ html[data-theme='dark'] {
 
   --works-background-color: #4b6c4b;
   --works-header-background-color: #2f472f;
+
+  --cert-background-color: #4a3d5c;
+  --cert-header-background-color: #2f2240;
 }
 
 p {
@@ -58,6 +64,9 @@ p {
     font-family: "Work Sans", serif;
     padding-bottom: 10px;
     color: var(--text-color);
+  }
+  &.citi {
+    padding-bottom: 0px;
   }
 }
 
@@ -183,6 +192,10 @@ h1 {
     margin-block-end: 0;
     margin-block-start: 0;
     color: var(--text-color);
+    padding-bottom: 5px;
+    &.cert {
+      text-align: center;
+    }
   }
   &--subtitle {
     font-size: 16px;
@@ -380,6 +393,9 @@ footer {
   &.works {
     background-color: var(--works-header-background-color);
   }
+  &.cert {
+    background-color: var(--cert-header-background-color);
+  }
 }
 
 .card-body {
@@ -394,6 +410,9 @@ footer {
   }
   &.works {
     background-color: var(--works-background-color) !important; 
+  }
+  &.cert {
+    background-color: var(--cert-background-color) !important; 
   }
   &.mobile {
     width: 380px !important;
@@ -515,6 +534,12 @@ footer {
   &.learn-more {
     color: #fff !important;
     background-color: #47864a !important;
+    &.cert {
+      background-color: #725795 !important;
+      &:hover {
+        background-color: #9578c7 !important;
+      }
+    }
   
     &:hover {
       background-color: #28552b !important;
