@@ -195,7 +195,7 @@ const Experience = ({darkMode}) => {
               <ul>
                 <li>Streamlined and optimised the manufacturing process of over 1,000 cups of
                   instant coffee daily in a collaboration project with
-                  <a href={"https://www.linkedin.com/company/e-plus-coffee-and-kitchen/"}> E+E Coffee</a>.
+                  <a href={"https://www.instagram.com/eecoffee.id/"}> E+E Coffee</a>.
                 </li>
                 <li>Facilitated crosschecking and packing of up to 150 orders per day,
                   ensuring precision of each item in the order.
