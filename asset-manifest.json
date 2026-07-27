@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jessica-mary/static/css/main.e0b326e5.css",
-    "main.js": "/jessica-mary/static/js/main.ba31824c.js",
+    "main.js": "/jessica-mary/static/js/main.af63d57d.js",
     "static/js/453.514c9734.chunk.js": "/jessica-mary/static/js/453.514c9734.chunk.js",
     "static/media/figma.png": "/jessica-mary/static/media/figma.1144e252e57a80cb8bbe.png",
     "static/media/xcelerate-data-science.png": "/jessica-mary/static/media/xcelerate-data-science.cc4b3ffcdd9b958dfbe8.png",
@@ -37,11 +37,11 @@
     "static/media/jm-icon.png": "/jessica-mary/static/media/jm-icon.1df265a512866620d6cc.png",
     "index.html": "/jessica-mary/index.html",
     "main.e0b326e5.css.map": "/jessica-mary/static/css/main.e0b326e5.css.map",
-    "main.ba31824c.js.map": "/jessica-mary/static/js/main.ba31824c.js.map",
+    "main.af63d57d.js.map": "/jessica-mary/static/js/main.af63d57d.js.map",
     "453.514c9734.chunk.js.map": "/jessica-mary/static/js/453.514c9734.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0b326e5.css",
-    "static/js/main.ba31824c.js"
+    "static/js/main.af63d57d.js"
   ]
 }
