@@ -43,8 +43,10 @@ const Home = ({darkMode}) => {
             />
           </Stack>
           <div className="para">
-            My name is Jessica, a <strong>Research Assistant</strong> at Duke-NUS.
-            I recently graduated in 2024 from <strong>NUS Pharmaceutical Science</strong>.
+            My name is Jessica, a Research Assistant at
+            <strong><a href="https://www.stjohn-lab.com/"> St. John Lab</a></strong>, Duke-NUS.
+            I recently graduated in 2024 from
+            <strong><a href="https://pharmacy.nus.edu.sg/study/undergraduate/bachelor-of-science-pharmaceutical-science/"> NUS Pharmaceutical Science</a></strong>.
             Currently, I love creating <a href="#projects"><strong>stuffs</strong></a> that help people.
             In my free time, I enjoy exploring new things and I am really passionate about music.
             Hit me up for covers!

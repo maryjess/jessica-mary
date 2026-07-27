@@ -27,7 +27,9 @@ const Experience = ({darkMode}) => {
                   >
                     <Stack justifyContent="space-evenly">
                       <h3 className="vertical-timeline-element--title">Research Assistant</h3>
-                      <h4 className="vertical-timeline-element--subtitle">Duke-NUS Medical School</h4>
+                      <h4 className="vertical-timeline-element--subtitle">
+                        <a className="subtitle" href="https://www.stjohn-lab.com/">St. John Lab
+                        </a>, Duke-NUS Medical School</h4>
                       <h4 className="vertical-timeline-element-date">May 2025 - Present</h4>
                       <p className="para mobile">
                         <ul>
@@ -57,7 +59,7 @@ const Experience = ({darkMode}) => {
                     <Stack justifyContent="space-evenly">
                       <h3 className="vertical-timeline-element--title">Operations and Finance Intern</h3>
                       <h4 className="vertical-timeline-element--subtitle">CV. Freysea Indo Citra &#8212;
-                        <a className="subtitle" href={"https://www.koffiku.com/"}>koffiku.com</a></h4>
+                        <a className="subtitle" href={"https://www.koffiku.com/"}> koffiku.com</a></h4>
                       <h4 className="vertical-timeline-element-date">May 2024 - June 2024</h4>
                       <p className="para mobile">
                         <ul>
@@ -165,7 +167,8 @@ const Experience = ({darkMode}) => {
             icon={<img alt="duke-nus" src={dukenus} className="timeline-icon center"></img>}
           >
             <h3 className="vertical-timeline-element--title">Research Assistant</h3>
-            <h4 className="vertical-timeline-element--subtitle">Duke-NUS Medical School</h4>
+            <h4 className="vertical-timeline-element--subtitle">
+              <a className="subtitle" href="https://www.stjohn-lab.com/">St. John Lab</a>, Duke-NUS Medical School</h4>
             <p className="para">
               <ul>  
                 <li>Investigated sexual transmission dynamics of Zika virus from IFNAR1-deficient male mice
