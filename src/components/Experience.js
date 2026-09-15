@@ -30,7 +30,7 @@ const Experience = ({darkMode}) => {
                       <h4 className="vertical-timeline-element--subtitle">
                         <a className="subtitle" href="https://www.stjohn-lab.com/">St. John Lab
                         </a>, Duke-NUS Medical School</h4>
-                      <h4 className="vertical-timeline-element-date">May 2025 - Present</h4>
+                      <h4 className="vertical-timeline-element-date">May 2025 - Aug 2026</h4>
                       <p className="para mobile">
                         <ul>
                           <li>Investigated sexual transmission dynamics of Zika virus from IFNAR1-deficient male mice
@@ -163,7 +163,7 @@ const Experience = ({darkMode}) => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work custom-timeline exp"
-            date="May 2025 - Present"
+            date="May 2025 - Aug 2026"
             icon={<img alt="duke-nus" src={dukenus} className="timeline-icon center"></img>}
           >
             <h3 className="vertical-timeline-element--title">Research Assistant</h3>
