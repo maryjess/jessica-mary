@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jessica-mary/static/css/main.e0b326e5.css",
-    "main.js": "/jessica-mary/static/js/main.7bbc8da8.js",
+    "main.js": "/jessica-mary/static/js/main.77a5f6dd.js",
     "static/js/453.514c9734.chunk.js": "/jessica-mary/static/js/453.514c9734.chunk.js",
     "static/media/figma.png": "/jessica-mary/static/media/figma.1144e252e57a80cb8bbe.png",
     "static/media/xcelerate-data-science.png": "/jessica-mary/static/media/xcelerate-data-science.cc4b3ffcdd9b958dfbe8.png",
@@ -17,6 +17,7 @@
     "static/media/agile.png": "/jessica-mary/static/media/agile.ef0a625ad97e8937c15e.png",
     "static/media/penabur.png": "/jessica-mary/static/media/penabur.929a23cd0eefa73042b0.png",
     "static/media/cloud-computing-fundamentals.png": "/jessica-mary/static/media/cloud-computing-fundamentals.80c9695f29b1305ce5cc.png",
+    "static/media/pathogen-detection-snapshot.png": "/jessica-mary/static/media/pathogen-detection-snapshot.8da4122d971e440eb7a7.png",
     "static/media/ai-job-simulation.png": "/jessica-mary/static/media/ai-job-simulation.082885c645ab0bd5fc2e.png",
     "static/media/kanaan.png": "/jessica-mary/static/media/kanaan.f07230a75806503f3318.png",
     "static/media/internconnect.png": "/jessica-mary/static/media/internconnect.b92f4d944d8ed6abcb23.png",
@@ -37,11 +38,11 @@
     "static/media/jm-icon.png": "/jessica-mary/static/media/jm-icon.1df265a512866620d6cc.png",
     "index.html": "/jessica-mary/index.html",
     "main.e0b326e5.css.map": "/jessica-mary/static/css/main.e0b326e5.css.map",
-    "main.7bbc8da8.js.map": "/jessica-mary/static/js/main.7bbc8da8.js.map",
+    "main.77a5f6dd.js.map": "/jessica-mary/static/js/main.77a5f6dd.js.map",
     "453.514c9734.chunk.js.map": "/jessica-mary/static/js/453.514c9734.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0b326e5.css",
-    "static/js/main.7bbc8da8.js"
+    "static/js/main.77a5f6dd.js"
   ]
 }
