@@ -2,6 +2,7 @@ import { Stack, Card, CardContent, CardMedia, CardActions, CardActionArea, Butto
 import mew from '../images/mew.png';
 import qr_bookmark from '../images/qr-bookmark.jpg';
 import internconnect from '../images/internconnect.png';
+import pathogen_detection from '../images/pathogen-detection-snapshot.png';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 import 'react-vertical-timeline-component/style.min.css';
 import '../index.scss';
@@ -19,6 +20,56 @@ const Projects = () => {
         alignItems="center"
         spacing={{xs: 2, xl: 0}}
       >
+        <div className="padding-left">
+          <Card className={isMobileScreen ? "card-body mobile works" : "card-body desktop works"}>
+            <div className="card-contents">
+              <CardActionArea href="https://detect-pathogens.streamlit.app/">
+                <CardMedia
+                  className="center"
+                  sx={{height: "200px", width: "450px", maxHeight: "200px", maxWidth: "450px"}}
+                  image={pathogen_detection}
+                  title="Pathogen Detection"
+                />
+              </CardActionArea>
+              <CardContent
+                sx={{padding: "30px", paddingBottom: "0px"}}
+              >
+                <Stack justifyContent="space-evenly">
+                  <a className="card less-spacing" href="https://maryjess.github.io/pathogen-detection/">
+                    <h3 className="vertical-timeline-element--title">Pathogen Detection Project</h3>
+                  </a>
+                  <p className="para less-spacing">A two-step approach used to detect pathogens from sample patient genomic data through its 6-mers</p>
+                  <CardActions>
+                    <Stack direction="row" spacing={2} sx={{alignSelf: "flex-end"}}>
+                      <Button 
+                        id="card-button"
+                        href="https://detect-pathogens.streamlit.app/"
+                        sx={{fontFamily: "Work Sans", textTransform: "none"}} 
+                        variant="contained" 
+                        color="success" 
+                        size="small"
+                        className="button learn-more"
+                      >
+                        Learn More
+                      </Button>
+                      <Button 
+                        id="card-button"
+                        href="https://github.com/maryjess/pathogen-detection/"
+                        sx={{fontFamily: "Work Sans", textTransform: "none"}} 
+                        color="success" 
+                        variant="outlined"
+                        size="small"
+                        className="button source-code"
+                      >
+                        Source Code
+                      </Button>
+                    </Stack>
+                  </CardActions>
+                </Stack>
+              </CardContent>
+            </div>
+          </Card>
+        </div>
         <div className="padding-left">
           <Card className={isMobileScreen ? "card-body mobile works" : "card-body desktop works"}>
             <div className="card-contents">
