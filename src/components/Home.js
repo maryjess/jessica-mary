@@ -43,13 +43,13 @@ const Home = ({darkMode}) => {
             />
           </Stack>
           <div className="para">
-            My name is Jessica, a Research Assistant at
-            <strong><a href="https://www.stjohn-lab.com/"> St. John Lab</a></strong>, Duke-NUS.
-            I recently graduated in 2024 from
+            My name is Jessica, and I recently graduated in 2024 from
             <strong><a href="https://pharmacy.nus.edu.sg/study/undergraduate/bachelor-of-science-pharmaceutical-science/"> NUS Pharmaceutical Science</a></strong>.
-            Currently, I love creating <a href="#projects"><strong>stuffs</strong></a> that help people.
+            My research interest lies in <strong>translational medicine</strong>, where I aim to bridge the gap between laboratory research and clinical applications with
+            my current skillsets in <strong>bioinformatics</strong> and my benchside research experiences.
+            I love creating <a href="#projects"><strong>stuffs</strong></a> that help people.
             In my free time, I enjoy exploring new things and I am really passionate about music.
-            Hit me up for covers!
+            Hit me up for <strong><a href="mailto:listijoj@gmail.com">collaborations!</a></strong>
           </div>
           <Stack direction="row" spacing={2} justifyContent={isMobileScreen ? "center" : "flex-start"}>
             <a href="https://github.com/maryjess">
